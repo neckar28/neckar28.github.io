@@ -23,7 +23,7 @@ email: nini43500@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Blog and Portfolio
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "neckarneckar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "neckar28.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
