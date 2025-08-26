@@ -1,0 +1,15 @@
+<div class="sidebar-section">
+  <h3 class="archive__subtitle">Categories</h3>
+  <ul class="taxonomy__index">
+    {% assign cats = site.categories | sort_natural %}
+    {% for c in cats %}
+      {% assign name = c[0] %}
+      {% assign count = c[1].size %}
+      <li>
+        <a href="{{ '/categories/' | append: name | url_encode | append: '/' | relative_url }}">
+          {{ name }} ({{ count }})
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

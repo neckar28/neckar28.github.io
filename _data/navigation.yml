@@ -1,0 +1,13 @@
+main:
+  - title: "홈"
+    url: /
+  - title: "포트폴리오"
+    url: /portfolio/
+#  - title: "카테고리"
+#    url: /categories/
+
+categories:
+  - title: "프로그래밍"
+    url: /categories/프로그래밍
+  - title: "기획"
+    url: /categories/기획

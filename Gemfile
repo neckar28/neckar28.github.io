@@ -17,8 +17,13 @@ group :jekyll_plugins do
 end
 
 gem "webrick"
-gem "jekyll-include-cache", group: :jekyll_plugins
+
+gem "jekyll-include-cache"
 gem "jekyll-remote-theme"
+gem "jekyll-archives"
+gem "jekyll-paginate"
+gem "jekyll-last-modified-at"
+
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.

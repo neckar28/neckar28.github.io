@@ -1,0 +1,20 @@
+---
+search: false
+---
+
+@charset "utf-8";
+
+/* 폰트 크기 줄이기 */
+body {
+  font-size: 18px;   // 기본 16px → 14px
+}
+h1 {
+  font-size: 1.8em;  // 기본보다 조금 줄이기
+}
+h2 {
+  font-size: 1.5em;
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+

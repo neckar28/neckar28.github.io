@@ -18,21 +18,47 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Neckar堂: 네카당"
+title: "네카당: Neckar堂"
 email: "nini43500@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog and Portfolio
+  Blog and Portfolio, Chang-seop Kim
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "neckar28.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-#github_username:  neckar28
+github_username:  neckar28
+
+locale: ko
+timezone: Asia/Seoul
 
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+minimal_mistakes_skin: "dirt"
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
-  - jekyll-feed
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-last-modified-at
+#  - jekyll-feed
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: "/categories/:name/"
+    tag: "/tags/:name/"
+  
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -53,3 +79,61 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+include: ["_pages"]
+include: ["_posts"]
+
+defaults:
+  - scope:
+      path: ""
+      type: ""
+    values:
+      author_profile: true
+      sidebar:
+        nav: "categories"
+
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "single"
+      show_date: true
+      read_time: true
+      author_profile: true
+      sidebar:
+        nav: "categories"
+      toc: true
+      toc_label: "Table of Contents"
+
+
+author:
+  name: "김창섭"
+  avatar: "/assets/images/bio-face.png"
+  bio: ""
+  location: "Seoul, South Korea"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/neckar28"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/%EC%B0%BD%EC%84%AD-%EA%B9%80-275678200/"
+
+collections:
+  pages:
+    output: true
+
+search: true
+
+enable_copy_code_button: true
+
+author_profile: true
+sidebar:
+  nav: "categories"
+
+paginate: 5
+paginate_path: "/page:num/"
+
+#breadcrumbs: true
+#breadcrumb_home_label: "Home"
+#breadcrumb_seperator: "/"
