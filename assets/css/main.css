@@ -9,6 +9,24 @@ body {
   margin: auto;
 }
 
+.language-python::before {
+  content: "🐍 Python";
+  background: #3776ab;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.language-csharp::before {
+  content: "⌬ C#";
+  background: #512bd4;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
 /* ==========================================================================
    Dirt skin
    ========================================================================== */
