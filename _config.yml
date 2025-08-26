@@ -52,8 +52,8 @@ jekyll-archives:
     - categories
     - tags
   layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
+    category: custom-archive
+    tag: custom-archive
   permalinks:
     category: "/categories/:name/"
     tag: "/tags/:name/"
@@ -68,20 +68,22 @@ jekyll-archives:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - "*.bat"
 
-include: ["_pages"]
-include: ["_posts"]
+include: 
+  - "_pages"
+  - "_posts"
 
 defaults:
   - scope:
@@ -104,6 +106,22 @@ defaults:
         nav: "categories"
       toc: true
       toc_label: "Table of Contents"
+
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      author_profile: true
+      sidebar:
+        nav: "categories"
+
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      author_profile: true
+      sidebar:
+        nav: "categories"
 
 
 author:
@@ -131,7 +149,7 @@ author_profile: true
 sidebar:
   nav: "categories"
 
-paginate: 5
+paginate: 10
 paginate_path: "/page:num/"
 
 #breadcrumbs: true

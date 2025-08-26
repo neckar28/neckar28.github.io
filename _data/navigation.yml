@@ -8,6 +8,6 @@ main:
 
 categories:
   - title: "프로그래밍"
-    url: /categories/프로그래밍
+    url: /categories/프로그래밍/
   - title: "기획"
-    url: /categories/기획
+    url: /categories/기획/
