@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="neckar28.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="neckar28.github.io/" rel="alternate" type="text/html" /><updated>2025-08-27T02:18:58+09:00</updated><id>neckar28.github.io/feed.xml</id><title type="html">네카당: Neckar堂</title><subtitle>Blog and Portfolio, Chang-seop Kim</subtitle><author><name>김창섭</name></author><entry><title type="html">Unity-Python Integration</title><link href="neckar28.github.io/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/2025/08/07/Unity-Python-Integration.html" rel="alternate" type="text/html" title="Unity-Python Integration" /><published>2025-08-07T00:00:00+09:00</published><updated>2025-08-26T23:03:30+09:00</updated><id>neckar28.github.io/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/2025/08/07/Unity-Python%20Integration</id><content type="html" xml:base="neckar28.github.io/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/2025/08/07/Unity-Python-Integration.html"><![CDATA[<p>기획 단계에서 Robospital을 <strong>Python 교육용 게임</strong>으로, <strong>Unity3D</strong>를 이용해 만들기로 결정했다. 따라서 사용자가 게임 안에서 코드를 작성하고, 그 코드를 곧바로 실행할 방법이 필요했다. 또한 warning이나 syntax error 하이라이팅 정보를 받아, 게임 화면에 시각적 피드백을 남길 수 있다면 초보자에게 더 직관적인 피드백을 줄 수 있을 것 같았다. 따라서 Python 코드를 문자열로 받아 Unity3D에서 직접 실행할 수 있는 방법에 대해 탐색하기 시작했다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="neckar28.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="neckar28.github.io/" rel="alternate" type="text/html" /><updated>2025-08-27T02:57:02+09:00</updated><id>neckar28.github.io/feed.xml</id><title type="html">네카당: Neckar堂</title><subtitle>Blog and Portfolio, Chang-seop Kim</subtitle><author><name>김창섭</name></author><entry><title type="html">Unity-Python Integration</title><link href="neckar28.github.io/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/2025/08/07/Unity-Python-Integration.html" rel="alternate" type="text/html" title="Unity-Python Integration" /><published>2025-08-07T00:00:00+09:00</published><updated>2025-08-26T23:03:30+09:00</updated><id>neckar28.github.io/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/2025/08/07/Unity-Python%20Integration</id><content type="html" xml:base="neckar28.github.io/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/2025/08/07/Unity-Python-Integration.html"><![CDATA[<p>기획 단계에서 Robospital을 <strong>Python 교육용 게임</strong>으로, <strong>Unity3D</strong>를 이용해 만들기로 결정했다. 따라서 사용자가 게임 안에서 코드를 작성하고, 그 코드를 곧바로 실행할 방법이 필요했다. 또한 warning이나 syntax error 하이라이팅 정보를 받아, 게임 화면에 시각적 피드백을 남길 수 있다면 초보자에게 더 직관적인 피드백을 줄 수 있을 것 같았다. 따라서 Python 코드를 문자열로 받아 Unity3D에서 직접 실행할 수 있는 방법에 대해 탐색하기 시작했다.</p>
 
 <hr />
 
@@ -30,7 +30,7 @@
 
 <h1 id="구현">구현</h1>
 
-<p>“구현”에서는 파이썬 프로세스를 실행하고 Unity에서 Python으로 메시지 (소스 코드)를 전달하는 방법을 다룬다.</p>
+<p>파이썬 프로세스를 실행하고 Unity에서 Python으로 메시지 (소스 코드)를 전달하는 코드를 작성했다.</p>
 
 <h2 id="파이썬-프로세스-실행-하기">파이썬 프로세스 실행 하기</h2>
 
@@ -256,7 +256,7 @@
 
 <h2 id="클린업-루틴">클린업 루틴</h2>
 
-<p>게임을 종료할 때 파이프와 프로세스를 정리하는 루틴.</p>
+<p>게임을 종료할 때 파이프와 프로세스를 정리하는 루틴이다.</p>
 
 <div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Unity</span>
 <span class="k">public</span> <span class="k">void</span> <span class="nf">CleanCmd</span><span class="p">()</span>
@@ -304,7 +304,7 @@
 
 <h1 id="추가적인-기능들">추가적인 기능들</h1>
 
-<p>“추가적인 기능들”에서는 Robospital을 교육용 게임으로 만들기 위해 필요했던 과정을 다룬다. 피드백, 코드 실행 시각화, 변수 추적 등의 기능 추가를 위해 코드를 분석하고, 디버거를 이용하는 방법이 필요했다.</p>
+<p>Robospital을 교육용 게임으로 만들기 위해 필요했던 코드를 작성했다. 피드백, 코드 실행 시각화, 변수 추적 등의 기능 추가를 위해 코드를 분석하고, 디버거를 이용하는 방법이 필요했다.</p>
 
 <h2 id="python--unity-시그널-파이프-추가-연결">Python → Unity 시그널 파이프 추가 연결</h2>
 
