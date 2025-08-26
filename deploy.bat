@@ -1,8 +1,9 @@
 @echo off
 echo Deploying Jekyll site...
 
-REM 빌드 결과를 gh-pages 브랜치에 푸시
-git subtree push --prefix=_site origin site
+bundle exec jekyll build
+
+git subtree split --prefix _site -b site
 
 echo.
 echo Deployment completed!
