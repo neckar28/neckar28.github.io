@@ -23,7 +23,7 @@ email: "nini43500@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   Blog and Portfolio, Chang-seop Kim
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "neckar28.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://neckar28.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  neckar28
 
 locale: ko
