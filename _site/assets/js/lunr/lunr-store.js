@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "포트폴리오",
-        "excerpt":"게임 Robospital 툴: Unity3D / C# / Python 역할: 1인 개발 (그래픽 제외) 2020년 8월 ~ 2023년 9월 19일 https://store.steampowered.com/app/2576580/Robospital/ Unity3D 기반의 Python 프로그래밍 교육용 게임입니다. 기획, 프로그래밍, 외주 관리, 리소스 구매 등 전 과정을 직접 진행했습니다. 공주님을 부탁해! 툴: Unity3D / C# 역할: 기획 / 프로그래밍 / 프로젝트 리딩...","categories": [],
+        "excerpt":"게임 Robospital Unity3D C# Python 역할: 1인 개발(그래픽 제외) 기간: 2020.08 ~ 2023.09 [Steam 페이지] Unity3D 기반의 Python 프로그래밍 교육용 게임을 직접 설계하고 개발했습니다. Unity와 Python을 연동해 TextMeshPro 기반의 코드 에디터를 만들어, 초보자가 게임 안에서 코드를 실행하며 학습할 수 있는 환경을 제공했습니다. 이 과정에서 TextMeshPro, UGUI 개발에 능숙해졌습니다. 스토리를 포함한...","categories": [],
         "tags": [],
         "url": "/portfolio/",
         "teaser": null
@@ -20,30 +20,30 @@ var store = [{
         "title": "Robospital의 프로그래밍 문제와 학습과정",
         "excerpt":"프로그래밍 퍼즐 구성은 Robospital 기획의 핵심적인 파트이다. 퍼즐은 교육용으로 제작되어야 했기 때문에 몇 가지 원칙을 가지고 프로그램을 구성했다. 원칙들은 다음과 같다. 따라 쓰기에서 시작해서 응용으로 끝낸다. 가급적이면 한 문제에 새로운 요소를 하나 넣는다. 어떤 문제에서 어떤 지식을 선행하여 알고 있어야 하는지 확인해야한다. 응용문제는 실생활의 언어를 사용하여, 사용자가 학습에 효능감을 얻도록...","categories": ["기획"],
         "tags": ["Python","Robospital"],
-        "url": "/%EA%B8%B0%ED%9A%8D/2025/08/05/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EB%AC%B8%EC%A0%9C%EC%99%80-%ED%95%99%EC%8A%B5%EA%B3%BC%EC%A0%95.html",
+        "url": "/posts/robospital-programming-contents",
         "teaser": null
       },{
         "title": "육성 시뮬레이션 구조, 프린세스 메이커와 우마무스메 비교",
         "excerpt":"※ 2022년 6월 기준 자료를 재구성했습니다. 육성 시뮬레이션 육성 시뮬레이션 게임은 아이, 애완동물, 유명인 등을 기르는 과정을 흉내 낸 생활 시뮬레이션 게임으로, 일반적인 RPG 게임의 육성 요소를 부각한 게임이라고 할 수 있다. 프린세스 메이커나, 다마고치, 우마무스메 등의 게임이 육성 시뮬레이션에 해당한다. 육성 시뮬레이션의 목표는 정해진 시간 안에 스탯을 키워서 엔딩을...","categories": ["기획"],
         "tags": ["공주님을부탁해!"],
-        "url": "/%EA%B8%B0%ED%9A%8D/2025/08/06/%EC%9C%A1%EC%84%B1-%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98-%EA%B5%AC%EC%A1%B0%EC%99%80-%EB%B9%84%EA%B5%90.html",
+        "url": "/posts/raising-sims-structure",
         "teaser": null
       },{
         "title": "코드 에디터 UI 기획",
         "excerpt":"Robospital 코드 에디터 UI Visual Studio 2022의 인터페이스 갓 대학에 들어갔을 때, 첫 IDE로 Visual Studio 2008을 썼었다. 흰 바탕에 깔끔한 IDE 였고 대부분의 IDE가 비슷하게 복잡하긴 하지만, 처음 프로그래밍을 접하는 사람에겐 익히기 쉽지 않았다. Robospital은 초보자들이 쉽게 프로그래밍에 입문할 수 있도록 도움을 주는 프로그램이다. 따라서 UI를 기획할 때도 IDE를...","categories": ["기획"],
         "tags": ["Robospital"],
-        "url": "/%EA%B8%B0%ED%9A%8D/2025/08/06/%EC%BD%94%EB%93%9C-%EC%97%90%EB%94%94%ED%84%B0-UI-%EA%B8%B0%ED%9A%8D.html",
+        "url": "/posts/code-editor-ui-design",
         "teaser": null
       },{
         "title": "Unity-Python Integration",
         "excerpt":"기획 단계에서 Robospital을 Python 교육용 게임으로, Unity3D를 이용해 만들기로 결정했다. 따라서 사용자가 게임 안에서 코드를 작성하고, 그 코드를 곧바로 실행할 방법이 필요했다. 또한 warning이나 syntax error 하이라이팅 정보를 받아, 게임 화면에 시각적 피드백을 남길 수 있다면 초보자에게 더 직관적인 피드백을 줄 수 있을 것 같았다. 따라서 Python 코드를 문자열로 받아...","categories": ["프로그래밍"],
         "tags": ["C#","Python","Robospital","Unity3D"],
-        "url": "/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/2025/08/07/Unity-Python-Integration.html",
+        "url": "/posts/unity-python-integration",
         "teaser": null
       },{
         "title": "스쿼트+미소녀 게임 기획 및 MVP 구현",
         "excerpt":"작업 기간: 2025-08-27 ~ 2025-09-03 기획 구직 스트레스에 시달리던 2025년 8월 27일, 게임을 만들어야겠다고 결심한다. 아이디어 도출 새로운 게임에 대한 아이디어는 항상 경험해본 게임, 좋아하는 요소들을 늘어놓는 데서 시작한다. 내가 좋아하는 게임 요소들을 티어로 나눠보면 다음과 같다. Tier 1 미소녀 애니메이션 스타일 팬서비스 공장 자동화 프로그래밍 Tier 2 VR 추리...","categories": ["기획"],
         "tags": ["C#","Unity3D","VR"],
-        "url": "/%EA%B8%B0%ED%9A%8D/2025/09/03/%EC%8A%A4%EC%BF%BC%ED%8A%B8+%EB%AF%B8%EC%86%8C%EB%85%80-%EA%B2%8C%EC%9E%84-%EA%B8%B0%ED%9A%8D-%EB%B0%8F-MVP-%EA%B5%AC%ED%98%84.html",
+        "url": "/posts/run-squat-warrior-mvp1",
         "teaser": null
       }]

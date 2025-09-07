@@ -36,6 +36,12 @@ body {
   margin-top: 2rem;  // 필요에 따라 3rem, 4rem 조절
 }
 
+.page__content h2 { margin-top: 2.25rem; }
+.pill {
+  display:inline-block; padding:0.15rem 0.5rem; border-radius:999px;
+  font-size:0.85em; background:#f2f2f2; margin-right:0.25rem; vertical-align:middle;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
