@@ -32,6 +32,10 @@ body {
   font-size: 12px;
 }
 
+.page__content h1:first-of-type {
+  margin-top: 2rem;  // 필요에 따라 3rem, 4rem 조절
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
