@@ -27,7 +27,7 @@ Unity와 Python을 연동해 TextMeshPro 기반의 코드 에디터를 만들어
 스토리를 포함한 교육 콘텐츠 기획·설계, 그래픽 외주 관리, 출시 일정 관리까지 담당하며, 게임 개발의 전 과정을 경험했습니다.
 
 #### Posts
-- [왜 파이썬이었나?](/posts/why-did-I-choose-Python)
+- [왜 파이썬이었나?](/posts/why-did-i-choose-python)
 - [Robospital의 프로그래밍 문제와 학습과정](/posts/robospital-programming-contents)
 - [코드 에디터 UI 기획](/posts/code-editor-ui-design)
 - [Unity-Python integration](/posts/unity-python-integration)

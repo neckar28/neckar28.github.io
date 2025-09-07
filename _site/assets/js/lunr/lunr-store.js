@@ -14,7 +14,7 @@ var store = [{
         "title": "왜 파이썬이었나?",
         "excerpt":"Robospital은 프로그래밍 교육용 프로그램으로, 프로그래밍 언어로 Python을 채택했다. 왜 파이썬을 선택했을까? https://github.blog/news-insights/octoverse/octoverse-2024/ Robospital을 처음 기획하던 2020년 기준으로, Python은 가장 많이 사용되는 프로그래밍 언어는 아니었다. 하지만 몇 가지 이유로 Python을 채택 했다. Python을 활용해 본 경험이 있어서, 프로그래밍 문제를 만들거나 구현에 적합했다. 이 전에 대학원 연구실에 다닐 때 Python을 활용해 본...","categories": ["기획"],
         "tags": ["Python","Robospital"],
-        "url": "/%EA%B8%B0%ED%9A%8D/2025/08/05/%EC%99%9C-%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4%EC%97%88%EB%82%98.html",
+        "url": "/posts/why-did-i-choose-python",
         "teaser": null
       },{
         "title": "Robospital의 프로그래밍 문제와 학습과정",
