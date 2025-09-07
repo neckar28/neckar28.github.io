@@ -6,7 +6,7 @@ var store = [{
         "teaser": null
       },{
         "title": "포트폴리오",
-        "excerpt":"포트폴리오 정리 공간  ","categories": [],
+        "excerpt":"게임 Robospital 툴: Unity3D / C# / Python 역할: 1인 개발 (그래픽 제외) 2020년 8월 ~ 2023년 9월 19일 https://store.steampowered.com/app/2576580/Robospital/ Unity3D 기반의 Python 프로그래밍 교육용 게임입니다. 기획, 프로그래밍, 외주 관리, 리소스 구매 등 전 과정을 직접 진행했습니다. 공주님을 부탁해! 툴: Unity3D / C# 역할: 기획 / 프로그래밍 / 프로젝트 리딩...","categories": [],
         "tags": [],
         "url": "/portfolio/",
         "teaser": null
@@ -42,7 +42,7 @@ var store = [{
         "teaser": null
       },{
         "title": "스쿼트+미소녀 게임 기획 및 MVP 구현",
-        "excerpt":"기획 구직 스트레스에 시달리던 2025년 8월 27일, 게임을 만들어야겠다고 결심한다. 아이디어 도출 새로운 게임에 대한 아이디어는 항상 경험해본 게임, 좋아하는 요소들을 늘어놓는 데서 시작한다. 내가 좋아하는 게임 요소들을 티어로 나눠보면 다음과 같다. Tier 1 미소녀 애니메이션 스타일 팬서비스 공장 자동화 프로그래밍 Tier 2 VR 추리 귀여움 시뮬레이션 밝은 분위기 샌드박스...","categories": ["기획"],
+        "excerpt":"작업 기간: 2025-08-27 ~ 2025-09-03 기획 구직 스트레스에 시달리던 2025년 8월 27일, 게임을 만들어야겠다고 결심한다. 아이디어 도출 새로운 게임에 대한 아이디어는 항상 경험해본 게임, 좋아하는 요소들을 늘어놓는 데서 시작한다. 내가 좋아하는 게임 요소들을 티어로 나눠보면 다음과 같다. Tier 1 미소녀 애니메이션 스타일 팬서비스 공장 자동화 프로그래밍 Tier 2 VR 추리...","categories": ["기획"],
         "tags": ["C#","Unity3D","VR"],
         "url": "/%EA%B8%B0%ED%9A%8D/2025/09/03/%EC%8A%A4%EC%BF%BC%ED%8A%B8+%EB%AF%B8%EC%86%8C%EB%85%80-%EA%B2%8C%EC%9E%84-%EA%B8%B0%ED%9A%8D-%EB%B0%8F-MVP-%EA%B5%AC%ED%98%84.html",
         "teaser": null
