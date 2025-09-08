@@ -1,4 +1,131 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neckar28.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neckar28.github.io/" rel="alternate" type="text/html" /><updated>2025-09-08T03:06:32+09:00</updated><id>https://neckar28.github.io/feed.xml</id><title type="html">김창섭 Blog</title><subtitle>Blog and Portfolio, Chang-seop Kim</subtitle><author><name>김창섭</name></author><entry><title type="html">스쿼트+미소녀 게임 기획 및 MVP 구현</title><link href="https://neckar28.github.io/posts/run-squat-warrior-mvp1" rel="alternate" type="text/html" title="스쿼트+미소녀 게임 기획 및 MVP 구현" /><published>2025-09-03T00:00:00+09:00</published><updated>2025-09-08T02:58:34+09:00</updated><id>https://neckar28.github.io/posts/%EC%8A%A4%EC%BF%BC%ED%8A%B8+%EB%AF%B8%EC%86%8C%EB%85%80%20%EA%B2%8C%EC%9E%84%20%EA%B8%B0%ED%9A%8D%20%EB%B0%8F%20MVP%20%EA%B5%AC%ED%98%84</id><content type="html" xml:base="https://neckar28.github.io/posts/run-squat-warrior-mvp1"><![CDATA[<p>작업 기간: 2025-08-27 ~ 2025-09-03</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neckar28.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neckar28.github.io/" rel="alternate" type="text/html" /><updated>2025-09-08T19:41:48+09:00</updated><id>https://neckar28.github.io/feed.xml</id><title type="html">김창섭 Blog</title><subtitle>Blog and Portfolio, Chang-seop Kim</subtitle><author><name>김창섭</name></author><entry><title type="html">공주님을 부탁해! 버그리포트 통계</title><link href="https://neckar28.github.io/posts/bug-report-statistics" rel="alternate" type="text/html" title="공주님을 부탁해! 버그리포트 통계" /><published>2025-09-08T00:00:00+09:00</published><updated>2025-09-08T19:41:09+09:00</updated><id>https://neckar28.github.io/posts/%EB%B2%84%EA%B7%B8%EB%A6%AC%ED%8F%AC%ED%8A%B8%20%ED%86%B5%EA%B3%84</id><content type="html" xml:base="https://neckar28.github.io/posts/bug-report-statistics"><![CDATA[<p>2023년 6월 초, 공주님을 부탁해! 베타 테스트를 진행했습니다.</p>
+
+<p>당시에 테스트를 진행하면서 얻은 이슈량에 관한 통계입니다.</p>
+
+<figure class="img-70"><img src="/assets/images/%EA%B3%B5%EC%A3%BC%EB%8B%98%EC%9D%84%20%EB%B6%80%ED%83%81%ED%95%B4!%20%EB%B2%84%EA%B7%B8%EB%A6%AC%ED%8F%AC%ED%8A%B8%20%ED%86%B5%EA%B3%84/notion.png" alt="notion에 정리된 버그리포트 및 이슈들" /><figcaption>
+      notion에 정리된 버그리포트 및 이슈들
+
+    </figcaption></figure>
+
+<p>당시 테스트 기간 동안 총 164개 이슈가 있었고, 133개 이슈에 대응했었습니다.</p>
+
+<blockquote>
+  <p>알파 테스트: 팀 내부 테스트<br />베타 테스트: 테스터를 모집하여 진행하는 테스트</p>
+</blockquote>
+
+<h2 id="날짜에-따른-이슈량-변화">날짜에 따른 이슈량 변화</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>구분</th>
+      <th>날짜</th>
+      <th><em>버그 리포트</em></th>
+      <th><em>아이디어 제안</em></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>알파 테스트</em></td>
+      <td><em>1일 - 3일</em></td>
+      <td><strong>20</strong></td>
+      <td><strong>15</strong></td>
+    </tr>
+    <tr>
+      <td><em>알파 테스트</em></td>
+      <td><em>4일 - 7일</em></td>
+      <td>9</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td><em>알파 테스트</em></td>
+      <td><em>7일 - 25일</em></td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><em>알파 테스트</em></td>
+      <td><em>25일 이후</em></td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td><em>베타 테스트</em></td>
+      <td><em>1일 - 3일</em></td>
+      <td><strong>43</strong></td>
+      <td><strong>11</strong></td>
+    </tr>
+    <tr>
+      <td><em>베타 테스트</em></td>
+      <td><em>4일 - 7일</em></td>
+      <td>8</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><em>베타 테스트</em></td>
+      <td><em>7일 - 29일</em></td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td><em>베타 테스트</em></td>
+      <td><em>29일 이후</em></td>
+      <td>15</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>단위: 건, 날짜는 데이터 수집 시간 기준, 데이터에 오차 있음 (±1일).</p>
+
+<h2 id="베타-테스트-빌드에-따른-이슈량-변화">베타 테스트 빌드에 따른 이슈량 변화</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>버전</th>
+      <th>시간</th>
+      <th><em>빌드 변경점</em></th>
+      <th><em>버그 리포트</em></th>
+      <th><em>아이디어 제안</em></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><em>ver 0.6.0 배포</em></td>
+      <td>시작</td>
+      <td> </td>
+      <td>23</td>
+      <td><strong>9</strong></td>
+    </tr>
+    <tr>
+      <td><em>ver 0.6.1 배포</em></td>
+      <td>12시간 후</td>
+      <td>21</td>
+      <td>20</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td><em>ver 0.6.2 배포</em></td>
+      <td>48시간 후</td>
+      <td>21</td>
+      <td>8</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>단위: 건, 데이터에 오차 있음.</p>
+
+<h2 id="논의">논의</h2>
+
+<p>대부분의 이슈는 테스트 시작 3일 안에 나타났고, 훨씬 적은 이슈가 7일 안에 나타났다. 7일 후에는 버그가 많이 보고되지 않는다.</p>
+
+<p>베타 테스트에서 열흘 이상 시간 간격을 두고 업데이트를 진행한 후, 추가적인 버그 리포트를 받을 수 있었다.</p>
+
+<p>즉 테스터들의 흥미가 식는데 3-7일 정도 걸린다고 해석 할 수 있다.</p>
+
+<p>따라서 효과적으로 베타 테스트를 진행하는데, 7일 간격으로 2-3회 모집하는 방법을 사용하면, 게임 테스트에 흥미가 충분한 테스터들을 유지할 수 있을 것으로 예상된다.</p>]]></content><author><name>김창섭</name></author><category term="프로그래밍" /><category term="공주님을부탁해!" /><summary type="html"><![CDATA[2023년 6월 초, 공주님을 부탁해! 베타 테스트를 진행했습니다.]]></summary></entry><entry><title type="html">스쿼트+미소녀 게임 기획 및 MVP 구현</title><link href="https://neckar28.github.io/posts/run-squat-warrior-mvp1" rel="alternate" type="text/html" title="스쿼트+미소녀 게임 기획 및 MVP 구현" /><published>2025-09-03T00:00:00+09:00</published><updated>2025-09-08T02:58:34+09:00</updated><id>https://neckar28.github.io/posts/%EC%8A%A4%EC%BF%BC%ED%8A%B8+%EB%AF%B8%EC%86%8C%EB%85%80%20%EA%B2%8C%EC%9E%84%20%EA%B8%B0%ED%9A%8D%20%EB%B0%8F%20MVP%20%EA%B5%AC%ED%98%84</id><content type="html" xml:base="https://neckar28.github.io/posts/run-squat-warrior-mvp1"><![CDATA[<p>작업 기간: 2025-08-27 ~ 2025-09-03</p>
 
 <h1 id="기획">기획</h1>
 
@@ -836,108 +963,7 @@
     Make a reporter that can be used when no reporter is specified.
     </span><span class="sh">"""</span>
     <span class="k">return</span> <span class="nc">Reporter</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">stdout</span><span class="p">)</span>
-</code></pre></div></div>]]></content><author><name>김창섭</name></author><category term="프로그래밍" /><category term="C#" /><category term="Python" /><category term="Robospital" /><category term="Unity3D" /><summary type="html"><![CDATA[기획 단계에서 Robospital을 Python 교육용 게임으로, Unity3D를 이용해 만들기로 결정했다. 따라서 사용자가 게임 안에서 코드를 작성하고, 그 코드를 곧바로 실행할 방법이 필요했다. 또한 warning이나 syntax error 하이라이팅 정보를 받아, 게임 화면에 시각적 피드백을 남길 수 있다면 초보자에게 더 직관적인 피드백을 줄 수 있을 것 같았다. 따라서 Python 코드를 문자열로 받아 Unity3D에서 직접 실행할 수 있는 방법에 대해 탐색하기 시작했다.]]></summary></entry><entry><title type="html">코드 에디터 UI 기획</title><link href="https://neckar28.github.io/posts/code-editor-ui-design" rel="alternate" type="text/html" title="코드 에디터 UI 기획" /><published>2025-08-06T00:00:00+09:00</published><updated>2025-09-08T02:58:34+09:00</updated><id>https://neckar28.github.io/posts/%EC%BD%94%EB%93%9C%20%EC%97%90%EB%94%94%ED%84%B0%20UI%20%EA%B8%B0%ED%9A%8D</id><content type="html" xml:base="https://neckar28.github.io/posts/code-editor-ui-design"><![CDATA[<h1 id="robospital--코드-에디터-ui">Robospital  코드 에디터 UI</h1>
-
-<p><img src="\assets\images\코드 에디터 UI 기획\image.png" alt="Visual Studio 2022의 인터페이스" /><em>Visual Studio 2022의 인터페이스</em></p>
-
-<p>갓 대학에 들어갔을 때, 첫 IDE로 Visual Studio 2008을 썼었다. 흰 바탕에 깔끔한 IDE 였고 대부분의 IDE가 비슷하게 복잡하긴 하지만, 처음 프로그래밍을 접하는 사람에겐 익히기 쉽지 않았다.</p>
-
-<p>Robospital은 초보자들이 쉽게 프로그래밍에 입문할 수 있도록 도움을 주는 프로그램이다. 따라서 UI를 기획할 때도 IDE를 간소화 해서, 인지적 부하를 줄이려고 했다. 이 문서에서는 UI를 구성하면서 신경썼던 부분들이나, 아쉬웠던 부분에 대해 이야기 해보려고 한다. UI 구성 및 디자인은 최다영님과 함께 작업했다.</p>
-
-<p>두 가지 원칙을 가지고 UI를 구성했다.</p>
-
-<ol>
-  <li><strong>최소한의 버튼과 기능</strong></li>
-  <li><strong>게임 진행과 함께 UI 해금 (점진적 학습)</strong></li>
-</ol>
-
-<hr />
-
-<h2 id="구성">구성</h2>
-
-<p>Robospital의 UI 구성은 다음과 같다.</p>
-
-<p><img src="\assets\images\코드 에디터 UI 기획\image%201.png" alt="image.png" class="center" /></p>
-
-<ol>
-  <li>뒤로 가기</li>
-  <li>설정</li>
-  <li>코드 실행 속도 조절 다이얼</li>
-  <li>컨트롤 패널</li>
-  <li>요구사항/변수 탐색기</li>
-  <li>제출하기</li>
-  <li>코드 에디터</li>
-  <li>Output 출력</li>
-  <li>Dictionary</li>
-</ol>
-
-<hr />
-
-<h2 id="전체적인-분위기">전체적인 분위기</h2>
-
-<p>문제 선택 화면이 전체적으로 밝은 분위기인 것과 대조적으로, 코딩 화면은 어둡게 하여 사용자의 몰입감을 올리려고 했다.</p>
-
-<h2 id="코드-실행-속도-조절-다이얼">코드 실행 속도 조절 다이얼</h2>
-
-<p>코드 실행 속도 조절 다이얼은 처음에 원형으로 디자인 되었다. 다이얼의 크기가 충분히 클 경우에는 다이얼의 중심을 기준으로 클릭 시작 점과 현재 마우스 위치를 계산하여 회전을 반영하는 것이 어색하지 않다. 하지만 다이얼의 크기가 작을 경우에는 마우스의 움직임과 다이얼의 회전이 직관적이지 않다.</p>
-
-<p>그래서 다이얼의 모양을 다음과 같이 Semi-Circular 게이지로 수정하였다. 이 모양으로 다이얼의 회전을 좌우 직선 형태의 마우스 움직임에 적절하게 매핑할 수 있었다.</p>
-
-<p><img src="\assets\images\코드 에디터 UI 기획\image%202.png" alt="image.png" class="center" /></p>
-
-<h2 id="컨트롤-패널">컨트롤 패널</h2>
-
-<p>컨트롤 패널의 버튼은 게임을 진행하며 하나씩 늘어나도록 해서, 사용자가 각각의 버튼에 익숙해질 수 있도록 했다. StepInto (Step) 버튼은 4 번째 문제(변수 선언)부터 등장하고, StepOver (Next) 버튼은 71 번째 문제 (함수)부터 등장한다.</p>
-
-<p><img src="\assets\images\코드 에디터 UI 기획\image%203.png" alt="image.png" width="400" class="center" /></p>
-
-<h2 id="요구사항변수-탐색기">요구사항/변수 탐색기</h2>
-
-<p>변수 탐색기도 처음부터 등장하지 않고, 4 번째 문제(변수 선언)부터 등장하도록 했다.</p>
-
-<h2 id="제출하기">제출하기</h2>
-
-<p>제출하기를 클릭하게 되면 코딩 화면을 전부 가리는 결과 화면이 나타나고, 사용자가 코딩 과정에 연속적으로 집중하기 어려워진다. 따라서 제출하기 버튼은 다른 버튼들과 거리를 두어, 미스 클릭을 방지하려고 했다.</p>
-
-<p><img src="\assets\images\코드 에디터 UI 기획\image%204.png" alt="image.png" class="center" /></p>
-
-<h2 id="코드-에디터">코드 에디터</h2>
-
-<p>코드 에디터는 Trivial Interactive의 “<a href="https://assetstore.unity.com/packages/tools/integration/roslyn-c-runtime-compiler-142753"><strong>Roslyn C# - Runtime Compiler</strong></a>” 에셋을 기반으로 기능들을 추가하거나 변경하여 만들어졌다. 다음과 같은 기능들을 직접 개발하였다.</p>
-
-<p><img src="\assets\images\코드 에디터 UI 기획\image%205.png" alt="image.png" class="center" /></p>
-
-<ol>
-  <li>
-    <p>Python 키워드 기반 문법 하이라이팅</p>
-
-    <p>기존 에셋을 기반으로 키워드를 수정하여 제작하였다. InputField에 작성된 텍스트는 MainText에서 처리되는데, MainText의 글자는 무색으로 화면에 표시되지 않는다. 대신 하이라이팅 처리가 된 텍스트가 HighlightedText에 표현된다. 이러한 하이라이팅 처리는 InputField에 변화가 생길 때 마다 갱신된다.</p>
-  </li>
-  <li>
-    <p>추가적인 라인 하이라이팅</p>
-
-    <p>기존 에셋의 작성중인 라인 하이라이팅을 수정하여, 코드 실행 중에도 실행 중인 라인을 하이라이트 하거나, 함수의 return이 있을 때 돌아가는 위치를 하이라이팅 하는 기능 등을 추가하였다.</p>
-  </li>
-  <li>
-    <p>Pyflakes를 이용한 오류/에러 하이라이팅</p>
-
-    <p>Pyflakes에서 받은 정보를 바탕으로 TextMeshPro의 Mark 태그를 활용해 오류/에러를 표시한다. 표시 처리된 텍스트는 FlakesText에서만 표시하는데, MainText처럼 텍스트는 무색으로 처리하여, HighlightedText의 배경색만 활용한다. 또한 Link 태그를 활용해 마우스를 배경 위에 올리면, 마우스를 따라다니는 작은 팝업을 띄워 오류/에러 메시지를 출력했다.</p>
-  </li>
-  <li>
-    <p>Undo, Redo</p>
-
-    <p>Undo/Redo를 구현하기 위해 circular queue를 만들어서, 코드와 caret 포지션을 저장했다. ctrl+z, ctrl+y에 동작하도록 키를 매핑하였다.</p>
-  </li>
-  <li>
-    <p>CJK IME 합성 대응</p>
-
-    <p>한글, 중국어, 일본어 등은 키를 누를 때 글자가 확정 되지 않고, 조합 중인 composition string이 바뀐다. 이것은 MainText에서 일어나기 때문에, 자연스럽게 표현하기 위해 HighlightedText에 표현할 필요가 있었다. 또한 composition string의 변화는 InputField의 onValueChanged에서 감지되지 않아서, 타이핑 소리를 composition string의 변화에서도 출력해야 했다.</p>
-  </li>
-</ol>
-
-<p>코드 에디터가 작은 것은 아쉬운 점이다. 에디터가 예쁘게 나오는 대신 크기가 작아져 최대 10 줄 정도만 표시 가능하다. 대부분의 문제들이 10 줄 내외로 작성 가능하여 초반에는 큰 문제가 없다. 하지만 후반부의 도전적인 문제들은 많은 코드를 필요로 하고, 초보자들의 경우에는 어떤 코드를 작성할지 예측하기 어렵다는 점에서, 더 넓은 코드 에디터를 제공하는 것이 개선 과제로 남는다.</p>
-
-<p><img src="\assets\images\코드 에디터 UI 기획\image%206.png" alt="image.png" class="center" /></p>]]></content><author><name>김창섭</name></author><category term="기획" /><category term="Robospital" /><summary type="html"><![CDATA[Robospital 코드 에디터 UI]]></summary></entry><entry><title type="html">육성 시뮬레이션 구조, 프린세스 메이커와 우마무스메 비교</title><link href="https://neckar28.github.io/posts/raising-sims-structure" rel="alternate" type="text/html" title="육성 시뮬레이션 구조, 프린세스 메이커와 우마무스메 비교" /><published>2025-08-06T00:00:00+09:00</published><updated>2025-09-08T02:58:34+09:00</updated><id>https://neckar28.github.io/posts/%EC%9C%A1%EC%84%B1%20%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%B9%84%EA%B5%90</id><content type="html" xml:base="https://neckar28.github.io/posts/raising-sims-structure"><![CDATA[<p>※ 2022년 6월 기준 자료를 재구성했습니다.</p>
+</code></pre></div></div>]]></content><author><name>김창섭</name></author><category term="프로그래밍" /><category term="C#" /><category term="Python" /><category term="Robospital" /><category term="Unity3D" /><summary type="html"><![CDATA[기획 단계에서 Robospital을 Python 교육용 게임으로, Unity3D를 이용해 만들기로 결정했다. 따라서 사용자가 게임 안에서 코드를 작성하고, 그 코드를 곧바로 실행할 방법이 필요했다. 또한 warning이나 syntax error 하이라이팅 정보를 받아, 게임 화면에 시각적 피드백을 남길 수 있다면 초보자에게 더 직관적인 피드백을 줄 수 있을 것 같았다. 따라서 Python 코드를 문자열로 받아 Unity3D에서 직접 실행할 수 있는 방법에 대해 탐색하기 시작했다.]]></summary></entry><entry><title type="html">육성 시뮬레이션 구조, 프린세스 메이커와 우마무스메 비교</title><link href="https://neckar28.github.io/posts/raising-sims-structure" rel="alternate" type="text/html" title="육성 시뮬레이션 구조, 프린세스 메이커와 우마무스메 비교" /><published>2025-08-06T00:00:00+09:00</published><updated>2025-09-08T02:58:34+09:00</updated><id>https://neckar28.github.io/posts/%EC%9C%A1%EC%84%B1%20%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%B9%84%EA%B5%90</id><content type="html" xml:base="https://neckar28.github.io/posts/raising-sims-structure"><![CDATA[<p>※ 2022년 6월 기준 자료를 재구성했습니다.</p>
 
 <h1 id="육성-시뮬레이션">육성 시뮬레이션</h1>
 
@@ -1443,7 +1469,108 @@
 <a href="https://ko.wikipedia.org/wiki/프린세스_메이커_2">https://ko.wikipedia.org/wiki/프린세스_메이커_2</a></li>
   <li>프린세스 메이커 공략정보(일본어)
 <a href="https://w.atwiki.jp/princessmaker1-5/">https://w.atwiki.jp/princessmaker1-5/</a></li>
-</ul>]]></content><author><name>김창섭</name></author><category term="기획" /><category term="공주님을부탁해!" /><summary type="html"><![CDATA[※ 2022년 6월 기준 자료를 재구성했습니다.]]></summary></entry><entry><title type="html">왜 파이썬이었나?</title><link href="https://neckar28.github.io/posts/why-did-i-choose-python" rel="alternate" type="text/html" title="왜 파이썬이었나?" /><published>2025-08-05T00:00:00+09:00</published><updated>2025-08-27T01:57:09+09:00</updated><id>https://neckar28.github.io/posts/%EC%99%9C%20%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4%EC%97%88%EB%82%98</id><content type="html" xml:base="https://neckar28.github.io/posts/why-did-i-choose-python"><![CDATA[<p>Robospital은 프로그래밍 교육용 프로그램으로, 프로그래밍 언어로 Python을 채택했다. 왜 파이썬을 선택했을까?</p>
+</ul>]]></content><author><name>김창섭</name></author><category term="기획" /><category term="공주님을부탁해!" /><summary type="html"><![CDATA[※ 2022년 6월 기준 자료를 재구성했습니다.]]></summary></entry><entry><title type="html">코드 에디터 UI 기획</title><link href="https://neckar28.github.io/posts/code-editor-ui-design" rel="alternate" type="text/html" title="코드 에디터 UI 기획" /><published>2025-08-06T00:00:00+09:00</published><updated>2025-09-08T02:58:34+09:00</updated><id>https://neckar28.github.io/posts/%EC%BD%94%EB%93%9C%20%EC%97%90%EB%94%94%ED%84%B0%20UI%20%EA%B8%B0%ED%9A%8D</id><content type="html" xml:base="https://neckar28.github.io/posts/code-editor-ui-design"><![CDATA[<h1 id="robospital--코드-에디터-ui">Robospital  코드 에디터 UI</h1>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image.png" alt="Visual Studio 2022의 인터페이스" /><em>Visual Studio 2022의 인터페이스</em></p>
+
+<p>갓 대학에 들어갔을 때, 첫 IDE로 Visual Studio 2008을 썼었다. 흰 바탕에 깔끔한 IDE 였고 대부분의 IDE가 비슷하게 복잡하긴 하지만, 처음 프로그래밍을 접하는 사람에겐 익히기 쉽지 않았다.</p>
+
+<p>Robospital은 초보자들이 쉽게 프로그래밍에 입문할 수 있도록 도움을 주는 프로그램이다. 따라서 UI를 기획할 때도 IDE를 간소화 해서, 인지적 부하를 줄이려고 했다. 이 문서에서는 UI를 구성하면서 신경썼던 부분들이나, 아쉬웠던 부분에 대해 이야기 해보려고 한다. UI 구성 및 디자인은 최다영님과 함께 작업했다.</p>
+
+<p>두 가지 원칙을 가지고 UI를 구성했다.</p>
+
+<ol>
+  <li><strong>최소한의 버튼과 기능</strong></li>
+  <li><strong>게임 진행과 함께 UI 해금 (점진적 학습)</strong></li>
+</ol>
+
+<hr />
+
+<h2 id="구성">구성</h2>
+
+<p>Robospital의 UI 구성은 다음과 같다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%201.png" alt="image.png" class="center" /></p>
+
+<ol>
+  <li>뒤로 가기</li>
+  <li>설정</li>
+  <li>코드 실행 속도 조절 다이얼</li>
+  <li>컨트롤 패널</li>
+  <li>요구사항/변수 탐색기</li>
+  <li>제출하기</li>
+  <li>코드 에디터</li>
+  <li>Output 출력</li>
+  <li>Dictionary</li>
+</ol>
+
+<hr />
+
+<h2 id="전체적인-분위기">전체적인 분위기</h2>
+
+<p>문제 선택 화면이 전체적으로 밝은 분위기인 것과 대조적으로, 코딩 화면은 어둡게 하여 사용자의 몰입감을 올리려고 했다.</p>
+
+<h2 id="코드-실행-속도-조절-다이얼">코드 실행 속도 조절 다이얼</h2>
+
+<p>코드 실행 속도 조절 다이얼은 처음에 원형으로 디자인 되었다. 다이얼의 크기가 충분히 클 경우에는 다이얼의 중심을 기준으로 클릭 시작 점과 현재 마우스 위치를 계산하여 회전을 반영하는 것이 어색하지 않다. 하지만 다이얼의 크기가 작을 경우에는 마우스의 움직임과 다이얼의 회전이 직관적이지 않다.</p>
+
+<p>그래서 다이얼의 모양을 다음과 같이 Semi-Circular 게이지로 수정하였다. 이 모양으로 다이얼의 회전을 좌우 직선 형태의 마우스 움직임에 적절하게 매핑할 수 있었다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%202.png" alt="image.png" class="center" /></p>
+
+<h2 id="컨트롤-패널">컨트롤 패널</h2>
+
+<p>컨트롤 패널의 버튼은 게임을 진행하며 하나씩 늘어나도록 해서, 사용자가 각각의 버튼에 익숙해질 수 있도록 했다. StepInto (Step) 버튼은 4 번째 문제(변수 선언)부터 등장하고, StepOver (Next) 버튼은 71 번째 문제 (함수)부터 등장한다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%203.png" alt="image.png" width="400" class="center" /></p>
+
+<h2 id="요구사항변수-탐색기">요구사항/변수 탐색기</h2>
+
+<p>변수 탐색기도 처음부터 등장하지 않고, 4 번째 문제(변수 선언)부터 등장하도록 했다.</p>
+
+<h2 id="제출하기">제출하기</h2>
+
+<p>제출하기를 클릭하게 되면 코딩 화면을 전부 가리는 결과 화면이 나타나고, 사용자가 코딩 과정에 연속적으로 집중하기 어려워진다. 따라서 제출하기 버튼은 다른 버튼들과 거리를 두어, 미스 클릭을 방지하려고 했다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%204.png" alt="image.png" class="center" /></p>
+
+<h2 id="코드-에디터">코드 에디터</h2>
+
+<p>코드 에디터는 Trivial Interactive의 “<a href="https://assetstore.unity.com/packages/tools/integration/roslyn-c-runtime-compiler-142753"><strong>Roslyn C# - Runtime Compiler</strong></a>” 에셋을 기반으로 기능들을 추가하거나 변경하여 만들어졌다. 다음과 같은 기능들을 직접 개발하였다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%205.png" alt="image.png" class="center" /></p>
+
+<ol>
+  <li>
+    <p>Python 키워드 기반 문법 하이라이팅</p>
+
+    <p>기존 에셋을 기반으로 키워드를 수정하여 제작하였다. InputField에 작성된 텍스트는 MainText에서 처리되는데, MainText의 글자는 무색으로 화면에 표시되지 않는다. 대신 하이라이팅 처리가 된 텍스트가 HighlightedText에 표현된다. 이러한 하이라이팅 처리는 InputField에 변화가 생길 때 마다 갱신된다.</p>
+  </li>
+  <li>
+    <p>추가적인 라인 하이라이팅</p>
+
+    <p>기존 에셋의 작성중인 라인 하이라이팅을 수정하여, 코드 실행 중에도 실행 중인 라인을 하이라이트 하거나, 함수의 return이 있을 때 돌아가는 위치를 하이라이팅 하는 기능 등을 추가하였다.</p>
+  </li>
+  <li>
+    <p>Pyflakes를 이용한 오류/에러 하이라이팅</p>
+
+    <p>Pyflakes에서 받은 정보를 바탕으로 TextMeshPro의 Mark 태그를 활용해 오류/에러를 표시한다. 표시 처리된 텍스트는 FlakesText에서만 표시하는데, MainText처럼 텍스트는 무색으로 처리하여, HighlightedText의 배경색만 활용한다. 또한 Link 태그를 활용해 마우스를 배경 위에 올리면, 마우스를 따라다니는 작은 팝업을 띄워 오류/에러 메시지를 출력했다.</p>
+  </li>
+  <li>
+    <p>Undo, Redo</p>
+
+    <p>Undo/Redo를 구현하기 위해 circular queue를 만들어서, 코드와 caret 포지션을 저장했다. ctrl+z, ctrl+y에 동작하도록 키를 매핑하였다.</p>
+  </li>
+  <li>
+    <p>CJK IME 합성 대응</p>
+
+    <p>한글, 중국어, 일본어 등은 키를 누를 때 글자가 확정 되지 않고, 조합 중인 composition string이 바뀐다. 이것은 MainText에서 일어나기 때문에, 자연스럽게 표현하기 위해 HighlightedText에 표현할 필요가 있었다. 또한 composition string의 변화는 InputField의 onValueChanged에서 감지되지 않아서, 타이핑 소리를 composition string의 변화에서도 출력해야 했다.</p>
+  </li>
+</ol>
+
+<p>코드 에디터가 작은 것은 아쉬운 점이다. 에디터가 예쁘게 나오는 대신 크기가 작아져 최대 10 줄 정도만 표시 가능하다. 대부분의 문제들이 10 줄 내외로 작성 가능하여 초반에는 큰 문제가 없다. 하지만 후반부의 도전적인 문제들은 많은 코드를 필요로 하고, 초보자들의 경우에는 어떤 코드를 작성할지 예측하기 어렵다는 점에서, 더 넓은 코드 에디터를 제공하는 것이 개선 과제로 남는다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%206.png" alt="image.png" class="center" /></p>]]></content><author><name>김창섭</name></author><category term="기획" /><category term="Robospital" /><summary type="html"><![CDATA[Robospital 코드 에디터 UI]]></summary></entry><entry><title type="html">왜 파이썬이었나?</title><link href="https://neckar28.github.io/posts/why-did-i-choose-python" rel="alternate" type="text/html" title="왜 파이썬이었나?" /><published>2025-08-05T00:00:00+09:00</published><updated>2025-09-08T03:07:11+09:00</updated><id>https://neckar28.github.io/posts/%EC%99%9C%20%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4%EC%97%88%EB%82%98</id><content type="html" xml:base="https://neckar28.github.io/posts/why-did-i-choose-python"><![CDATA[<p>Robospital은 프로그래밍 교육용 프로그램으로, 프로그래밍 언어로 Python을 채택했다. 왜 파이썬을 선택했을까?</p>
 
 <p><img src="/assets/images/왜 파이썬이었나/1.png" alt="Github 2014 - 2024 프로그래밍 언어 사용 순위" /><em>https://github.blog/news-insights/octoverse/octoverse-2024/</em></p>
 
