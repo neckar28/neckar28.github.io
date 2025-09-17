@@ -52,4 +52,10 @@ var store = [{
         "tags": ["공주님을부탁해!"],
         "url": "/posts/bug-report-statistics",
         "teaser": null
+      },{
+        "title": "Unity CI CD",
+        "excerpt":" ","categories": ["프로그래밍"],
+        "tags": [],
+        "url": "/posts/unity-ci-cd",
+        "teaser": null
       }]
