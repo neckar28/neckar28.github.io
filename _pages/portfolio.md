@@ -53,6 +53,7 @@ Unity와 Python을 연동해 TextMeshPro 기반의 코드 에디터를 만들어
 
 #### Posts
 - [육성 시뮬레이션 구조, 프린세스 메이커와 우마무스메 비교](/posts/raising-sims-structure)
+- [공주님을 부탁해! 버그리포트 통계](/posts/bug-report-statistics)
 
 ---
 
