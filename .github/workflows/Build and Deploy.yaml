@@ -12,7 +12,7 @@ jobs:
 
       - uses: actions/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: 3.4.5
       
       - run: bundle install
       - run: bundle exec jekyll buil -b _site
