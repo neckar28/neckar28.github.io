@@ -1,5 +1,5 @@
 ---
-title:  "Unity CI\CD"
+title:  "Unity CI\\CD"
 date:   2025-09-17
 categories: 프로그래밍
 permalink: /posts/unity-ci-cd
