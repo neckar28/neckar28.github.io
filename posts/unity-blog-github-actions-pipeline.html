@@ -39,7 +39,7 @@
 
 
 
-  <meta property="article:modified_time" content="2025-09-19T01:33:55+09:00">
+  <meta property="article:modified_time" content="2025-09-19T01:40:04+09:00">
 
 
 
@@ -303,7 +303,7 @@
     <meta itemprop="headline" content="Unity-Blog-GitHub Actions 파이프라인 만들기">
     <meta itemprop="description" content="테크 PM 포지션에 지원해보기 위해 간단하게나마 Devops 경험이 필요하다고 생각해서, 간단한 CI/CD 파이프라인을 만들어보았다.">
     <meta itemprop="datePublished" content="2025-09-17T00:00:00+09:00">
-    <meta itemprop="dateModified" content="2025-09-19T01:33:55+09:00">
+    <meta itemprop="dateModified" content="2025-09-19T01:40:04+09:00">
 
     <div class="page__inner-wrap">
       
@@ -536,9 +536,9 @@
 
 <h3 id="fine-grained-personal-access-token-설정">Fine-grained personal access token 설정</h3>
 
-<ol>
+<ul>
   <li>GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token</li>
-</ol>
+</ul>
 
 <p><img src="\assets\images\Unity-Blog-GitHub Actions 파이프라인 만들기\image%206.png" alt="image.png" width="230" class="center" /></p>
 
@@ -548,26 +548,26 @@
 
 <p><img src="\assets\images\Unity-Blog-GitHub Actions 파이프라인 만들기\image%209.png" alt="image.png" class="center" /></p>
 
-<ol>
+<ul>
   <li>토큰 설정
     <ol>
       <li>Repository access를 블로그 레포지토리로 제한</li>
       <li>Permissions에 Contents, Read and write 추가</li>
     </ol>
   </li>
-</ol>
+</ul>
 
 <p><img src="\assets\images\Unity-Blog-GitHub Actions 파이프라인 만들기\image%2010.png" alt="image.png" class="center" /></p>
 
-<ol>
+<ul>
   <li>토큰 복사 해 놓기. 한 번 밖에 못 본다.</li>
-</ol>
+</ul>
 
 <p><img src="\assets\images\Unity-Blog-GitHub Actions 파이프라인 만들기\image%2011.png" alt="image.png" class="center" /></p>
 
-<ol>
+<ul>
   <li>이 토큰을 유니티 라이센스 설정에서 본 것 처럼, 유니티 레포지토리의 secret 키로 만든다. 나는 BLOG_REPO_PAT로 설정했다.</li>
-</ol>
+</ul>
 
 <h3 id="유니티-빌드--배포-워크플로우">유니티 빌드 &amp; 배포 워크플로우</h3>
 
