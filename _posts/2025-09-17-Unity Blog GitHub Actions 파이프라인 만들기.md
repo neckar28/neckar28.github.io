@@ -175,7 +175,7 @@ actions-gh-pages에서는 personal access token을 요구한다. 여기서는 �
 
 ### Fine-grained personal access token 설정
 
-1. GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token
+- GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token
 
 ![image.png](\assets\images\Unity-Blog-GitHub Actions 파이프라인 만들기\image%206.png){: width="230"}{: .center}
 
@@ -185,17 +185,17 @@ actions-gh-pages에서는 personal access token을 요구한다. 여기서는 �
 
 ![image.png](\assets\images\Unity-Blog-GitHub Actions 파이프라인 만들기\image%209.png){: .center}
 
-1. 토큰 설정
+- 토큰 설정
     1. Repository access를 블로그 레포지토리로 제한
     2. Permissions에 Contents, Read and write 추가
 
 ![image.png](\assets\images\Unity-Blog-GitHub Actions 파이프라인 만들기\image%2010.png){: .center}
 
-1. 토큰 복사 해 놓기. 한 번 밖에 못 본다.
+- 토큰 복사 해 놓기. 한 번 밖에 못 본다.
 
 ![image.png](\assets\images\Unity-Blog-GitHub Actions 파이프라인 만들기\image%2011.png){: .center}
 
-1. 이 토큰을 유니티 라이센스 설정에서 본 것 처럼, 유니티 레포지토리의 secret 키로 만든다. 나는 BLOG_REPO_PAT로 설정했다. 
+- 이 토큰을 유니티 라이센스 설정에서 본 것 처럼, 유니티 레포지토리의 secret 키로 만든다. 나는 BLOG_REPO_PAT로 설정했다. 
 
 ### 유니티 빌드 & 배포 워크플로우
 
