@@ -1,0 +1,1772 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://neckar28.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://neckar28.github.io/" rel="alternate" type="text/html" /><updated>2025-09-17T23:13:45+09:00</updated><id>https://neckar28.github.io/feed.xml</id><title type="html">김창섭 Blog</title><subtitle>Blog and Portfolio, Chang-seop Kim</subtitle><author><name>김창섭</name></author><entry><title type="html">Unity CI CD</title><link href="https://neckar28.github.io/posts/unity-ci-cd" rel="alternate" type="text/html" title="Unity CI CD" /><published>2025-09-17T00:00:00+09:00</published><updated>2025-09-17T23:06:20+09:00</updated><id>https://neckar28.github.io/posts/Unity%20CI%20CD</id><content type="html" xml:base="https://neckar28.github.io/posts/unity-ci-cd"><![CDATA[<iframe src="/assets/webgl/WebGLPractice/index.html" style="width:100%; height:720px; border:0;" loading="lazy" allowfullscreen=""></iframe>]]></content><author><name>김창섭</name></author><category term="프로그래밍" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">공주님을 부탁해! 버그리포트 통계</title><link href="https://neckar28.github.io/posts/bug-report-statistics" rel="alternate" type="text/html" title="공주님을 부탁해! 버그리포트 통계" /><published>2025-09-08T00:00:00+09:00</published><updated>2025-09-08T20:02:30+09:00</updated><id>https://neckar28.github.io/posts/%EB%B2%84%EA%B7%B8%EB%A6%AC%ED%8F%AC%ED%8A%B8%20%ED%86%B5%EA%B3%84</id><content type="html" xml:base="https://neckar28.github.io/posts/bug-report-statistics"><![CDATA[<p><br />2023년 6월 초, <strong>공주님을 부탁해</strong>! 알파, 베타 테스트를 진행했습니다.</p>
+
+<p>이 과정에서 얻은 이슈량에 관한 통계입니다.</p>
+
+<figure class="img-70"><img src="/assets/images/%EA%B3%B5%EC%A3%BC%EB%8B%98%EC%9D%84%20%EB%B6%80%ED%83%81%ED%95%B4!%20%EB%B2%84%EA%B7%B8%EB%A6%AC%ED%8F%AC%ED%8A%B8%20%ED%86%B5%EA%B3%84/notion.png" alt="notion에 정리된 버그리포트 및 이슈들" /><figcaption>
+      notion에 정리된 버그리포트 및 이슈들
+
+    </figcaption></figure>
+
+<p>당시 테스트 기간 동안 총 164개 이슈가 있었고, 133개 이슈에 대응했었습니다.</p>
+
+<blockquote>
+  <p>알파 테스트: 팀 내부 테스트<br />베타 테스트: 테스터를 모집하여 진행하는 테스트</p>
+</blockquote>
+
+<h2 id="날짜에-따른-이슈량-변화">날짜에 따른 이슈량 변화</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>구분</th>
+      <th>날짜</th>
+      <th>버그 리포트</th>
+      <th>아이디어 제안</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>알파 테스트</td>
+      <td>1일 - 3일</td>
+      <td><strong>20</strong></td>
+      <td><strong>15</strong></td>
+    </tr>
+    <tr>
+      <td>알파 테스트</td>
+      <td>4일 - 7일</td>
+      <td>9</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>알파 테스트</td>
+      <td>7일 - 25일</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>알파 테스트</td>
+      <td>25일 이후</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>베타 테스트</td>
+      <td>1일 - 3일</td>
+      <td><strong>43</strong></td>
+      <td><strong>11</strong></td>
+    </tr>
+    <tr>
+      <td>베타 테스트</td>
+      <td>4일 - 7일</td>
+      <td>8</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>베타 테스트</td>
+      <td>7일 - 29일</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>베타 테스트</td>
+      <td>29일 이후</td>
+      <td>15</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><em>단위: 건, 날짜는 데이터 수집 시간 기준, 데이터에 오차 있음 (±1일).</em></p>
+
+<h2 id="베타-테스트-빌드에-따른-이슈량-변화">베타 테스트 빌드에 따른 이슈량 변화</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>버전</th>
+      <th>시간</th>
+      <th>빌드 변경점</th>
+      <th>버그 리포트</th>
+      <th>아이디어 제안</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ver 0.6.0 배포</td>
+      <td>시작</td>
+      <td> </td>
+      <td>23</td>
+      <td><strong>9</strong></td>
+    </tr>
+    <tr>
+      <td>ver 0.6.1 배포</td>
+      <td>12시간 후</td>
+      <td>21</td>
+      <td>20</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>ver 0.6.2 배포</td>
+      <td>48시간 후</td>
+      <td>21</td>
+      <td>8</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="논의">논의</h2>
+
+<ol>
+  <li>
+    <p>대부분의 이슈는 테스트 시작 3일 안에 보고되었고, 훨씬 적은 이슈가 7일 안에 보고되었다. 7일 후에는 버그가 많이 보고되지 않는다.</p>
+
+    <p>베타 테스트에서 열흘 이상 시간 간격을 두고 업데이트를 진행한 후, 추가적인 버그 리포트를 받을 수 있었다.</p>
+
+    <p>즉, 테스터들의 흥미가 식는데 약 3~7일 정도 걸린다고 해석 할 수 있다.</p>
+
+    <p>따라서 베타 테스트를 진행할 때, <strong>7일 간격으로 2-3회 테스터들을 모집</strong>하는 것으로, 테스터들의 흥미를 유지하면서 안정적으로 피드백을 확보할 수 있을 것으로 보인다.</p>
+  </li>
+  <li>
+    <p>알파 테스트는 아이디어 제안 비율이 높고, 베타 테스트는 버그 리포트 비율이 높다.</p>
+
+    <p>알파 테스트와 베타 테스트 사이에 제안된 아이디어를 검토하고 구현할 시간을 확보하는 것이 좋겠습니다.</p>
+  </li>
+</ol>]]></content><author><name>김창섭</name></author><category term="프로그래밍" /><category term="공주님을부탁해!" /><summary type="html"><![CDATA[2023년 6월 초, 공주님을 부탁해! 알파, 베타 테스트를 진행했습니다.]]></summary></entry><entry><title type="html">스쿼트+미소녀 게임 기획 및 MVP 구현</title><link href="https://neckar28.github.io/posts/run-squat-warrior-mvp1" rel="alternate" type="text/html" title="스쿼트+미소녀 게임 기획 및 MVP 구현" /><published>2025-09-03T00:00:00+09:00</published><updated>2025-09-08T20:09:52+09:00</updated><id>https://neckar28.github.io/posts/%EC%8A%A4%EC%BF%BC%ED%8A%B8+%EB%AF%B8%EC%86%8C%EB%85%80%20%EA%B2%8C%EC%9E%84%20%EA%B8%B0%ED%9A%8D%20%EB%B0%8F%20MVP%20%EA%B5%AC%ED%98%84</id><content type="html" xml:base="https://neckar28.github.io/posts/run-squat-warrior-mvp1"><![CDATA[<p>작업 기간: 2025-08-27 ~ 2025-09-03</p>
+
+<h1 id="기획">기획</h1>
+
+<p>구직 스트레스에 시달리던 2025년 8월 27일, 게임을 만들어야겠다고 결심한다.</p>
+
+<h2 id="아이디어-도출">아이디어 도출</h2>
+
+<p>새로운 게임에 대한 아이디어는 항상 경험해본 게임, 좋아하는 요소들을 늘어놓는 데서 시작한다. 내가 좋아하는 게임 요소들을 티어로 나눠보면 다음과 같다.</p>
+
+<ul>
+  <li>Tier 1
+    <ul>
+      <li>미소녀</li>
+      <li>애니메이션 스타일</li>
+      <li>팬서비스</li>
+      <li>공장</li>
+      <li>자동화</li>
+      <li>프로그래밍</li>
+    </ul>
+  </li>
+  <li>Tier 2
+    <ul>
+      <li>VR</li>
+      <li>추리</li>
+      <li>귀여움</li>
+      <li>시뮬레이션</li>
+      <li>밝은 분위기</li>
+      <li>샌드박스</li>
+    </ul>
+  </li>
+  <li>Tier 3
+    <ul>
+      <li>카드</li>
+      <li>퍼즐</li>
+      <li>전략</li>
+      <li>로그라이크</li>
+    </ul>
+  </li>
+</ul>
+
+<p>예를 들면 Robospital은 자동화, 프로그래밍과 귀여움, 밝은 분위기의 조합이다. 그리고 보통 스트레스 상태에서는 미소녀에 미쳐있기 때문에, 미소녀 키워드를 고정하고 아이디어를 만들기 시작했다.</p>
+
+<p>승리의 여신 니케, 니어 오토마타, 라이자의 아틀리에 등 미소녀가 강조된 레퍼런스를 정리하다 떠오른 아이디어…</p>
+
+<p><img src="\assets\images\스쿼트+미소녀 게임 기획 및 MVP 구현\image.png" alt="image.png" class="center" /></p>
+
+<p><strong>미소녀 + VR + 스쿼트를 조합하면 되겠다.</strong></p>
+
+<p>순식간에 머릿속에 그림이 그려진다. 달리는 미소녀들, 그 사이에서 스쿼트를 하는 나. 불타오르는 하체와 강력한 동기부여.</p>
+
+<p>그렇게 만들어진 “달려라, 스쿼트 용사! (가제)”의 시놉시스는 다음과 같다.</p>
+
+<blockquote>
+  <p>마왕의 저주를 받아 스쿼트로만 이동할 수 있게 된 당신, 마왕을 물리치기 위해 미소녀들과 힘을 합쳐 여행을 떠난다!</p>
+
+</blockquote>
+
+<hr />
+
+<h2 id="핵심-ux">핵심 UX</h2>
+
+<p>운동은 지루하다. 많은 사람들이 위고비와 같은 약물에 다이어트를 의존하는 현실이 증명한다. 하지만 나 같이 약이 싫은 사람들은 여전히 운동으로 살을 빼야한다는 강박에 빠져있다. 그렇다면 어떻게 지루한 운동에 동기를 부여할 것인가. <strong>답은 관심사 Tier 1. 미소녀 캐릭터다.</strong></p>
+
+<p>미소녀 캐릭터와 함께 달리다 보면 플레이어의 시선은 자연스럽게 동반자의 움직임과 보조를 맞추게 된다. 특히 <strong>스쿼트</strong> 과정에서 <strong>플레이어의 시선이 캐릭터의 어깨 위와 허리 아래로 왕복</strong>하는 과정이 생겨난다. 이런 과정에서 생긴 집중력은 운동 지속성, 멀미 방지와 독특한 동기 강화, 몰입 포인트를 줄 수 있을 것으로 예상된다.</p>
+
+<hr />
+
+<h2 id="게임-루프-초안">게임 루프 초안</h2>
+
+<ul>
+  <li>준비: 상점, 커스터마이즈 + 스테이지 선택</li>
+  <li>시작</li>
+  <li>이동 (스쿼트)</li>
+  <li>전투</li>
+  <li>이동 (스쿼트)</li>
+  <li>보스전</li>
+  <li>보상</li>
+  <li>반복</li>
+</ul>
+
+<hr />
+
+<h2 id="환경">환경</h2>
+
+<ul>
+  <li>Unity3D 6000.2.1f1 + VR template</li>
+  <li>VRoid Studio</li>
+  <li>UniVRM 1.0</li>
+  <li>Meta Quest 2</li>
+  <li>Cluade code</li>
+</ul>
+
+<h1 id="mvp-구현">MVP 구현</h1>
+
+<h2 id="스쿼트-인식">스쿼트 인식</h2>
+
+<h3 id="스쿼트란">스쿼트란?</h3>
+
+<p>일반적인 HMD 세트로 인식할 수 있는 점은 머리와 양손의 6-DOF 정보이다. 어떻게 스쿼트를 인식할지 고민해 보았다. 그래서 일단, 스쿼트는 뭐지?</p>
+
+<p><img src="\assets\images\스쿼트+미소녀 게임 기획 및 MVP 구현\image%201.png" alt="Source: Everkinetic/Urutseg (CC BY-SA 3.0)" class="center" /></p>
+
+<p>Source: Everkinetic/Urutseg (CC BY-SA 3.0)</p>
+
+<p>스쿼트는 무게를 들고, 무릎 관절을 굽혔다 펴는 운동이다. 맨손으로도 하는데, 문제는 손을 앞으로 뻗기도 하고, 가슴 앞에서 맞잡기도 하고, 허리에 대기도 한다. 즉, 손 정보가 크게 의미는 없다는 것.</p>
+
+<p>Pose prediction에 IK를 쓸까 같은 복잡한 고민을 하면서, HMD를 쓰고 이리저리 움직여 보았다. 그런데 <strong>HMD 높이가 낮아지는 경우가 생각보다 많지 않다</strong>는 점을 깨달았다.</p>
+
+<p><img src="\assets\images\스쿼트+미소녀 게임 기획 및 MVP 구현\image%202.png" alt="image.png" class="center" /></p>
+
+<p>정상적으로 서 있다는 가정 하에, 허리 굽히기와 스쿼트 말고 없는 것 같다! 그리고 허리 굽히기는 다음과 같은 이유로 신경쓰지 않아도 괜찮다고 생각했다.</p>
+
+<ol>
+  <li>스쿼트 보다 허리 굽히기가 더 힘들다. 
+그리고 허리 굽히기가 더 위험하다는건 상식처럼 퍼져있다.</li>
+  <li>허리 굽히기의 시선 움직임이 스쿼트 보다 더 안 좋다. 
+앞에서 미소녀 캐릭터가 함께 달리기 때문에, 유저가 안정적인 시선을 포기하지 않을 거라고 예상할 수 있다.</li>
+  <li>게임 내내 스쿼트를 강조해서 스쿼트를 해야한다고 가스라이팅을 할 예정이다. 
+그리고 허리 굽히기 하지 말라고 안내할 예정이다.</li>
+</ol>
+
+<p>결과적으로 복잡한 계산 과정 없이, 단순히 <strong>HMD 높이로 스쿼트를 정의</strong>하기로 했다.</p>
+
+<h3 id="스쿼트를-빠르게-열심히-하는건-뭐지">스쿼트를 빠르게, 열심히 하는건 뭐지?</h3>
+
+<p>운동을 하면서 앞으로 달려나가는 게임이라면 ‘링피트 어드벤처’가 가장 먼저 떠오른다. 링피트 어드벤처의 자연스러운 움직임은 운동 강도와 빈도를 모두 반영한다. 우리 게임에서도 스쿼트 빈도를 반영하는 것이 좋다고 판단되었다.</p>
+
+<p>몇 번의 시행착오를 거쳐서 스쿼트 뿐만 아니라, 좀 더 작은 수준의 높이 변화 역시 반영해야 한다고 판단하고 다음과 같이 표를 만들 수 있었다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>스쿼트 시간</th>
+      <th>스쿼트</th>
+      <th>움직임 시간</th>
+      <th>움직임 (squat state 변화)</th>
+      <th>플레이어 이동 속도</th>
+      <th>캐릭터와의 거리</th>
+      <th>비고</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2초</td>
+      <td>O</td>
+      <td>2초</td>
+      <td>O</td>
+      <td>↑↑</td>
+      <td>↓</td>
+      <td>강한 스쿼트</td>
+    </tr>
+    <tr>
+      <td>2초</td>
+      <td>O</td>
+      <td>2초</td>
+      <td>X</td>
+      <td>↓</td>
+      <td>↑</td>
+      <td>멈췄다</td>
+    </tr>
+    <tr>
+      <td>2초</td>
+      <td>X</td>
+      <td>2초</td>
+      <td>O</td>
+      <td> </td>
+      <td> </td>
+      <td>2.5초 확인하기</td>
+    </tr>
+    <tr>
+      <td>2초</td>
+      <td>X</td>
+      <td>2초</td>
+      <td>X</td>
+      <td>↓</td>
+      <td>↑</td>
+      <td>멈췄다</td>
+    </tr>
+    <tr>
+      <td>2.5초</td>
+      <td>O</td>
+      <td>2초</td>
+      <td>O</td>
+      <td>↑</td>
+      <td>↓</td>
+      <td>중간 스쿼트</td>
+    </tr>
+    <tr>
+      <td>2.5초</td>
+      <td>O</td>
+      <td>2초</td>
+      <td>X</td>
+      <td> </td>
+      <td> </td>
+      <td>멈췄다</td>
+    </tr>
+    <tr>
+      <td>2.5초</td>
+      <td>X</td>
+      <td>2초</td>
+      <td>O</td>
+      <td> </td>
+      <td> </td>
+      <td>3초 확인하기</td>
+    </tr>
+    <tr>
+      <td>2.5초</td>
+      <td>X</td>
+      <td>2초</td>
+      <td>X</td>
+      <td>↓</td>
+      <td>↑</td>
+      <td>멈췄다</td>
+    </tr>
+    <tr>
+      <td>3초</td>
+      <td>O</td>
+      <td>2초</td>
+      <td>O</td>
+      <td>↓</td>
+      <td>↑</td>
+      <td>멈추는 중</td>
+    </tr>
+    <tr>
+      <td>3초</td>
+      <td>O</td>
+      <td>2초</td>
+      <td>X</td>
+      <td>↓</td>
+      <td>↑</td>
+      <td>멈췄다</td>
+    </tr>
+    <tr>
+      <td>3초</td>
+      <td>X</td>
+      <td>2초</td>
+      <td>O</td>
+      <td>↓</td>
+      <td>↑</td>
+      <td>스쿼트가 아님</td>
+    </tr>
+    <tr>
+      <td>3초</td>
+      <td>X</td>
+      <td>2초</td>
+      <td>X</td>
+      <td>↓</td>
+      <td>↑</td>
+      <td>멈췄다</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>이걸 압축하면 세 가지 상태로 나눌 수 있다.</p>
+
+<ol>
+  <li>스쿼트 시간 2초 이내 O, 움직인 시간 2초 이내 O → 강한 스쿼트</li>
+  <li>스쿼트 시간 2.5초 이내 O, 움직인 시간 2초 이내 O → 중간 스쿼트</li>
+  <li>그 외 → 멈춤</li>
+</ol>
+
+<h2 id="이동-시스템">이동 시스템</h2>
+
+<h3 id="루트-시스템-구현">루트 시스템 구현</h3>
+
+<p>직관적인 레벨 디자인을 위해 경로를 직접 배치하고 수정할 수 있는 시스템을 Claude를 이용해서 만들었다.</p>
+
+<p><img src="\assets\images\스쿼트+미소녀 게임 기획 및 MVP 구현\image%203.png" alt="image.png" class="center" /></p>
+
+<p>생각보다 금방 정교하게 만들어줘서 조금 놀랐다. 프롬프트는 다음과 같았다.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>루트를 설정하는 게임 오브젝트를 만들고 싶어요. 몇 가지 기능이 필요할 것 같아요.
+
+1. Vector3 리스트를 이용해서 경로 리스트 만들기
+2. 리스트에 저장된 공간에 mesh나 gizmo 보여주기
+3. 공간에 보이는 mesh나 gizmo를 움직여 Vector3 수정하기
+4. inspector의 보정 버튼을 누르면 y축에서 가장 가까운 collider를 찾아 높이 보정하기
+</code></pre></div></div>
+
+<p>AI가 제안한 함수들은 대체로 잘 돌아갔지만, 오류도 있었다. 예를 들면, 전체 progress로 position을 찾는 함수가, 각 경로의 길이가 같다는 것을 전제로 만들어져 있었다. 이를 직접 수정하여 구간별 길이를 고려하도록 수정했다.</p>
+
+<h3 id="이동-적용">이동 적용</h3>
+
+<p>스쿼트와 루트 정보를 이용해, 다음과 같은 과정을 거쳐 이동을 적용했다.</p>
+
+<ol>
+  <li>루트에서 현재 방향 정보를 가져온다.</li>
+  <li>스쿼트 점수를 이동 속도로 변환한다.</li>
+  <li>속도에 최대 속도를 제한한다.</li>
+  <li>Character Collider에 Move를 적용해 플레이어 캐릭터가 이동하게 한다.</li>
+  <li>플레이어의 이동에 따라 Companion Character가 움직이도록 한다.</li>
+</ol>
+
+<p>이를 통해 스쿼트 점수를 이동 속도에 반영하도록 만들었다. 스쿼트로 이동한다는 핵심적인 콘셉트가 완성되었다.</p>
+
+<h1 id="시연-영상">시연 영상</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MtAG7jsxP_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="">
+</iframe>]]></content><author><name>김창섭</name></author><category term="기획" /><category term="프로그래밍" /><category term="C#" /><category term="Unity3D" /><category term="VR" /><summary type="html"><![CDATA[작업 기간: 2025-08-27 ~ 2025-09-03]]></summary></entry><entry><title type="html">Unity-Python Integration</title><link href="https://neckar28.github.io/posts/unity-python-integration" rel="alternate" type="text/html" title="Unity-Python Integration" /><published>2025-08-07T00:00:00+09:00</published><updated>2025-09-08T02:58:34+09:00</updated><id>https://neckar28.github.io/posts/Unity-Python%20Integration</id><content type="html" xml:base="https://neckar28.github.io/posts/unity-python-integration"><![CDATA[<p>기획 단계에서 Robospital을 <strong>Python 교육용 게임</strong>으로, <strong>Unity3D</strong>를 이용해 만들기로 결정했다. 따라서 사용자가 게임 안에서 코드를 작성하고, 그 코드를 곧바로 실행할 방법이 필요했다. 또한 warning이나 syntax error 하이라이팅 정보를 받아, 게임 화면에 시각적 피드백을 남길 수 있다면 초보자에게 더 직관적인 피드백을 줄 수 있을 것 같았다. 따라서 Python 코드를 문자열로 받아 Unity3D에서 직접 실행할 수 있는 방법에 대해 탐색하기 시작했다.</p>
+
+<hr />
+
+<h1 id="탐색">탐색</h1>
+
+<p>※ Robospital을 기획하던 2020-2021년 기준으로 작성되었습니다.</p>
+
+<p>Python에 관련된 .NET 라이브러리를 찾기 시작했다. IronPython과 Python.NET을 검토해봤는데, 몇 가지 이유로 선택할 수 없었다.</p>
+
+<ol>
+  <li>
+    <p>IronPython</p>
+
+    <p>IronPython은 .NET 환경에 맞춘 Python 인터프리터인데, 당시에 Python 2의 지원 중심이었고, Python3의 지원은 느리게 업데이트 되는 중이었다. (현재는 Python 3.4까지 지원하고 있는 것으로 보인다.) 그리고 일부 문법 호환이 완벽하지 않거나, 외부 라이브러리 import가 아쉬운 부분이 있었다.</p>
+  </li>
+  <li>
+    <p>Python.NET</p>
+
+    <p>Pythonnet은 python을 임베딩할 수 있는 라이브러리지만, 당시에는 공식 문서가 직관적이지 않았고, Python 소스 코드를 C#에서 실행하는 예제나 정보가 부족했다. 지금이라면 Pythonnet을 선택할 것 같은데, 당시에는 구현에 대한 확신이 들지 않아서 다른 방법을 찾게 됐다.</p>
+  </li>
+  <li>
+    <p><strong>Python 프로세스 만들어서 통신하기</strong></p>
+
+    <p>결정적으로 라이브러리 위에서 원하는 기능들을 모두 구현할 수 있을 것이라는 확신이 들지 않아서, 새로운 python 프로세스를 만들어, pipe로 통신하는 구조로 만들기로 결정했다. 두 프로세스를 관리해야 한다는 부담은 있었지만, 파이썬 문법이나 코드에 신경을 적게 들일 수 있고, 원하는 기능들을 모두 만들어 낼 수 있을 거라는 확신은 가질 수 있었다.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h1 id="구현">구현</h1>
+
+<p>파이썬 프로세스를 실행하고 Unity에서 Python으로 메시지 (소스 코드)를 전달하는 코드를 작성했다.</p>
+
+<h2 id="파이썬-프로세스-실행-하기">파이썬 프로세스 실행 하기</h2>
+
+<p>Unity C# 스크립트에서 Python 프로세스를 실행하고, stdin, stdout을 연결하는 과정이다.</p>
+
+<p><img src="\assets\images\Unity-Python Integration\image.png" alt="image.png" /></p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Unity</span>
+<span class="k">using</span> <span class="nn">System</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Diagnostics</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.IO</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.Text</span><span class="p">;</span>
+
+<span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">PythonInterface</span> <span class="p">:</span> <span class="n">MonoBehaviour</span>
+<span class="p">{</span>
+	<span class="k">private</span> <span class="n">Process</span> <span class="n">cmd</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+	<span class="k">private</span> <span class="n">StreamWriter</span> <span class="n">stdin</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+	<span class="k">private</span> <span class="k">readonly</span> <span class="kt">string</span> <span class="n">interfacePath</span> <span class="p">=</span> <span class="s">"interface.py"</span><span class="p">;</span>
+	<span class="k">private</span> <span class="k">readonly</span> <span class="kt">string</span> <span class="n">pythonPath</span> <span class="p">=</span> <span class="s">"python.exe"</span><span class="p">;</span>
+	
+	<span class="k">private</span> <span class="kt">int</span> <span class="nf">RunCmd</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">cmd</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="c1">//error message</span>
+			<span class="nf">print</span><span class="p">(</span><span class="s">"python is already running"</span><span class="p">);</span>
+			<span class="k">return</span> <span class="p">-</span><span class="m">1</span><span class="p">;</span>
+		<span class="p">}</span>
+		<span class="n">cmd</span> <span class="p">=</span> <span class="k">new</span> <span class="nf">Process</span><span class="p">();</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="n">StartInfo</span><span class="p">.</span><span class="n">FileName</span> <span class="p">=</span> <span class="n">pythonPath</span><span class="p">;</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="n">StartInfo</span><span class="p">.</span><span class="n">Arguments</span> <span class="p">=</span> <span class="nf">BuildArgumetns</span><span class="p">();</span>
+
+		<span class="n">cmd</span><span class="p">.</span><span class="n">StartInfo</span><span class="p">.</span><span class="n">UseShellExecute</span> <span class="p">=</span> <span class="k">false</span><span class="p">;</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="n">StartInfo</span><span class="p">.</span><span class="n">CreateNoWindow</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+
+		<span class="n">cmd</span><span class="p">.</span><span class="n">StartInfo</span><span class="p">.</span><span class="n">RedirectStandardInput</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="n">StartInfo</span><span class="p">.</span><span class="n">RedirectStandardOutput</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="n">StartInfo</span><span class="p">.</span><span class="n">RedirectStandardError</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+
+		<span class="n">cmd</span><span class="p">.</span><span class="n">EnableRaisingEvents</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="n">Exited</span> <span class="p">+=</span> <span class="k">new</span> <span class="nf">EventHandler</span><span class="p">(</span><span class="n">ProcessExited</span><span class="p">);</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="n">OutputDataReceived</span> <span class="p">+=</span> <span class="k">new</span> <span class="nf">DataReceivedEventHandler</span><span class="p">(</span><span class="n">ReadStdout</span><span class="p">);</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="n">ErrorDataReceived</span> <span class="p">+=</span> <span class="k">new</span> <span class="nf">DataReceivedEventHandler</span><span class="p">(</span><span class="n">ReadStderr</span><span class="p">);</span>
+
+		<span class="n">cmd</span><span class="p">.</span><span class="n">StartInfo</span><span class="p">.</span><span class="n">StandardOutputEncoding</span> <span class="p">=</span> <span class="n">Encoding</span><span class="p">.</span><span class="nf">GetEncoding</span><span class="p">(</span><span class="s">"utf-8"</span><span class="p">);</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="n">StartInfo</span><span class="p">.</span><span class="n">StandardErrorEncoding</span> <span class="p">=</span> <span class="n">Encoding</span><span class="p">.</span><span class="nf">GetEncoding</span><span class="p">(</span><span class="s">"utf-8"</span><span class="p">);</span>
+
+		<span class="n">cmd</span><span class="p">.</span><span class="nf">Start</span><span class="p">();</span>
+
+		<span class="n">stdin</span> <span class="p">=</span> <span class="n">cmd</span><span class="p">.</span><span class="n">StandardInput</span><span class="p">;</span>
+
+		<span class="n">cmd</span><span class="p">.</span><span class="nf">BeginOutputReadLine</span><span class="p">();</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="nf">BeginErrorReadLine</span><span class="p">();</span>
+
+		<span class="k">return</span> <span class="n">cmd</span><span class="p">.</span><span class="n">Id</span><span class="p">;</span>
+	<span class="p">}</span>
+	
+	<span class="k">private</span> <span class="kt">string</span> <span class="nf">BuildArgumetns</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="k">return</span> <span class="n">interfacePath</span><span class="p">;</span>
+	<span class="p">}</span>
+	
+	<span class="c1">//stdout 콜백</span>
+	<span class="k">private</span> <span class="k">void</span> <span class="nf">ReadStdout</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">DataReceivedEventArgs</span> <span class="n">e</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="k">if</span> <span class="p">(!</span><span class="n">String</span><span class="p">.</span><span class="nf">IsNullOrEmpty</span><span class="p">(</span><span class="n">e</span><span class="p">.</span><span class="n">Data</span><span class="p">))</span>
+		<span class="p">{</span>
+			<span class="n">Debug</span><span class="p">.</span><span class="nf">Log</span><span class="p">(</span><span class="n">e</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="nf">ToString</span><span class="p">());</span>
+			<span class="c1">//Do something</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+	
+	<span class="c1">//stderr 콜백</span>
+	<span class="k">private</span> <span class="k">void</span> <span class="nf">ReadStderr</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">DataReceivedEventArgs</span> <span class="n">e</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="k">if</span> <span class="p">(!</span><span class="n">String</span><span class="p">.</span><span class="nf">IsNullOrEmpty</span><span class="p">(</span><span class="n">e</span><span class="p">.</span><span class="n">Data</span><span class="p">))</span>
+		<span class="p">{</span>
+			<span class="n">Debug</span><span class="p">.</span><span class="nf">Log</span><span class="p">(</span><span class="n">e</span><span class="p">.</span><span class="n">Data</span><span class="p">.</span><span class="nf">ToString</span><span class="p">());</span>
+			<span class="c1">//Do something</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+	
+	<span class="c1">//process exit 콜백</span>
+	<span class="k">private</span> <span class="k">void</span> <span class="nf">ProcessExited</span><span class="p">(</span><span class="kt">object</span> <span class="n">sender</span><span class="p">,</span> <span class="n">System</span><span class="p">.</span><span class="n">EventArgs</span> <span class="n">e</span><span class="p">)</span>
+	<span class="p">{</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="메시지-박스-만들기">메시지 박스 만들기</h2>
+
+<p>Unity3D에서 MonoBehaviour가 동작하는 메인 스레드는 단일 스레드로 돌아간다. 따라서, MonoBehaviour 내에서 직접적인 멀티스레딩은 지원되지 않는다.</p>
+
+<p>예를 들어, 메인 스레드가 아닌 다른 스레드에서 유니티 GameObject의 속성이나, UI에 접근할 수 없다. 따라서 Python 프로세스에서 온 신호의 콜백이 UI나 GameObject에 영향을 미칠 수 없다.</p>
+
+<p>이 것을 극복하기 위해 사이에 메시지 박스 (Queue)를 두고, 콜백이 메시지를 쌓아두게 한다. 그리고 Unity의 메인 스레드가 주기적으로 메시지 박스를 체크해서 쌓여있는 메시지를 처리하는 방식을 쓴다.</p>
+
+<p><img src="\assets\images\Unity-Python Integration\image%201.png" alt="image.png" /></p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Unity</span>
+<span class="k">using</span> <span class="nn">System.Collections.Generic</span><span class="p">;</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">MessageBox</span>
+<span class="p">{</span>
+
+	<span class="k">private</span> <span class="n">Queue</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;</span> <span class="n">messageQueue</span> <span class="p">=</span> <span class="k">new</span> <span class="n">Queue</span><span class="p">&lt;</span><span class="kt">string</span><span class="p">&gt;();</span>
+
+	<span class="k">public</span> <span class="k">void</span> <span class="nf">PushData</span><span class="p">(</span><span class="kt">string</span> <span class="n">data</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="n">messageQueue</span><span class="p">.</span><span class="nf">Enqueue</span><span class="p">(</span><span class="n">data</span><span class="p">);</span>
+	<span class="p">}</span>
+
+	<span class="k">public</span> <span class="kt">string</span> <span class="nf">GetData</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">messageQueue</span><span class="p">.</span><span class="n">Count</span> <span class="p">&gt;</span> <span class="m">0</span><span class="p">)</span>
+			<span class="k">return</span> <span class="n">messageQueue</span><span class="p">.</span><span class="nf">Dequeue</span><span class="p">();</span>
+		<span class="k">else</span>
+			<span class="k">return</span> <span class="kt">string</span><span class="p">.</span><span class="n">Empty</span><span class="p">;</span>
+	<span class="p">}</span>
+	
+	<span class="k">public</span> <span class="kt">bool</span> <span class="nf">MessageExisting</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">messageQueue</span><span class="p">.</span><span class="n">Count</span> <span class="p">&gt;</span> <span class="m">0</span><span class="p">)</span>
+			<span class="k">return</span> <span class="k">true</span><span class="p">;</span>
+		<span class="k">else</span>
+			<span class="k">return</span> <span class="k">false</span><span class="p">;</span>
+
+	<span class="p">}</span>
+
+	<span class="k">public</span> <span class="k">void</span> <span class="nf">ClearMessage</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="n">messageQueue</span><span class="p">.</span><span class="nf">Clear</span><span class="p">();</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Unity</span>
+<span class="k">using</span> <span class="nn">System.Collections</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">UnityEngine</span><span class="p">;</span>
+
+<span class="k">public</span> <span class="k">class</span> <span class="nc">UnityManager</span><span class="p">:</span> <span class="n">MonoBehaviour</span>
+<span class="p">{</span>
+	<span class="c1">//반복하면서 메시지 확인</span>
+	<span class="k">virtual</span> <span class="k">public</span> <span class="n">IEnumerator</span> <span class="nf">CheckQueue</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="k">while</span> <span class="p">(</span><span class="k">true</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="kt">string</span> <span class="n">data</span> <span class="p">=</span> <span class="n">messageBox</span><span class="p">.</span><span class="nf">GetData</span><span class="p">();</span>
+			<span class="n">data</span><span class="p">.</span><span class="nf">DoSomething</span><span class="p">();</span>
+			<span class="k">yield</span> <span class="k">return</span> <span class="k">null</span><span class="p">;</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="파이프-연결-코드-전송과-실행">파이프 연결, 코드 전송과 실행</h2>
+
+<p>게임에서 작성한 코드를 파이썬으로 넘기는 과정. 코드를 전달할 파이프를 연결한다.</p>
+
+<p><img src="\assets\images\Unity-Python Integration\image%202.png" alt="image.png" /></p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Unity</span>
+<span class="k">using</span> <span class="nn">TMPro</span><span class="p">;</span>
+<span class="k">using</span> <span class="nn">System.IO.Pipes</span><span class="p">;</span>
+
+<span class="k">private</span> <span class="kt">byte</span><span class="p">[]</span> <span class="n">buffer</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+<span class="k">private</span> <span class="n">TMP_InputField</span> <span class="n">codeEditor</span><span class="p">;</span>
+	
+	<span class="c1">//코드 파이프 실행</span>
+	<span class="k">private</span> <span class="k">void</span> <span class="nf">RunCodePipeWait</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="kt">string</span> <span class="n">code</span> <span class="p">=</span> <span class="n">codeEditor</span><span class="p">.</span><span class="n">Text</span><span class="p">;</span>
+		<span class="n">buffer</span> <span class="p">=</span> <span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="nf">GetBytes</span><span class="p">(</span><span class="n">code</span><span class="p">);</span>
+		
+		<span class="kt">string</span> <span class="n">pipeName</span> <span class="p">=</span> <span class="s">"CodePipe"</span><span class="p">;</span>
+		
+		<span class="n">codePipe</span> <span class="p">=</span> <span class="k">new</span> <span class="nf">NamedPipeServerStream</span><span class="p">(</span><span class="n">pipeName</span><span class="p">);</span>
+		<span class="n">codePipe</span><span class="p">.</span><span class="nf">BeginWaitForConnection</span><span class="p">(</span><span class="k">new</span> <span class="nf">AsyncCallback</span><span class="p">(</span><span class="n">CodePipeConnectionCallback</span><span class="p">),</span> <span class="n">codePipe</span><span class="p">);</span>
+	<span class="p">}</span>
+	
+	<span class="c1">//코드 파이프 콜백</span>
+	<span class="k">private</span> <span class="k">void</span> <span class="nf">CodePipeConnectionCallback</span><span class="p">(</span><span class="n">IAsyncResult</span> <span class="n">iar</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="n">BinaryWriter</span> <span class="n">writer</span> <span class="p">=</span> <span class="k">new</span> <span class="nf">BinaryWriter</span><span class="p">(</span><span class="n">codePipe</span><span class="p">);</span>
+		<span class="n">writer</span><span class="p">.</span><span class="nf">Write</span><span class="p">(</span><span class="n">buffer</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">buffer</span><span class="p">.</span><span class="n">Length</span><span class="p">);</span>
+		<span class="n">buffer</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+	<span class="p">}</span>
+	
+	<span class="c1">//Argument로 코드 버퍼 길이 전달</span>
+	<span class="k">private</span> <span class="kt">string</span> <span class="nf">BuildArgumetns</span><span class="p">()</span>
+	<span class="p">{</span>
+		<span class="k">return</span> <span class="n">interfacePath</span> <span class="p">+</span> <span class="s">" "</span> <span class="p">+</span> <span class="n">buffer</span><span class="p">.</span><span class="n">Length</span><span class="p">.</span><span class="nf">ToString</span><span class="p">();</span>
+	<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Python
+#파이프에서 코드 읽어오기
+</span><span class="k">def</span> <span class="nf">GetCode</span><span class="p">(</span><span class="n">bufferSize</span><span class="p">,</span> <span class="n">pipePath</span><span class="p">):</span>
+	<span class="n">f</span> <span class="o">=</span> <span class="nf">open</span><span class="p">(</span><span class="n">pipePath</span><span class="p">,</span> <span class="sh">'</span><span class="s">r+b</span><span class="sh">'</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+	<span class="k">try</span><span class="p">:</span>
+		<span class="n">code</span> <span class="o">=</span> <span class="n">f</span><span class="p">.</span><span class="nf">read</span><span class="p">(</span><span class="n">bufferSize</span><span class="p">).</span><span class="nf">decode</span><span class="p">(</span><span class="sh">'</span><span class="s">utf-8</span><span class="sh">'</span><span class="p">)</span>
+	<span class="k">except</span> <span class="nb">OSError</span> <span class="k">as</span> <span class="n">err</span><span class="p">:</span>
+		<span class="k">raise</span> <span class="nc">Exception</span><span class="p">(</span><span class="sh">"</span><span class="s">pipePath: {pipePath}, bufferSize: {bufferSize}, Error: {err}</span><span class="sh">"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">pipePath</span><span class="p">,</span> <span class="n">bufferSize</span><span class="p">,</span> <span class="n">err</span><span class="p">))</span>
+	<span class="n">f</span><span class="p">.</span><span class="nf">close</span><span class="p">()</span>
+	<span class="k">return</span> <span class="n">code</span>
+	
+<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+	<span class="n">codeBufferSize</span> <span class="o">=</span> <span class="nf">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+	<span class="n">pipePath</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\\\\</span><span class="s">.</span><span class="se">\\</span><span class="s">pipe</span><span class="se">\\</span><span class="sh">'</span> <span class="o">+</span> <span class="sh">"</span><span class="s">CodePipe</span><span class="sh">"</span>
+		
+	<span class="n">code</span> <span class="o">=</span> <span class="nc">GetCode</span><span class="p">(</span><span class="n">codeBufferSize</span><span class="p">,</span> <span class="n">pipePath</span><span class="p">)</span>
+	<span class="c1">#코드 실행
+</span>	<span class="nf">exec</span><span class="p">(</span><span class="n">code</span><span class="p">)</span>
+	
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">'</span><span class="s">__main__</span><span class="sh">'</span><span class="p">:</span>
+	<span class="k">try</span><span class="p">:</span>
+		<span class="nf">main</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">)</span>
+	<span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+		<span class="nf">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="클린업-루틴">클린업 루틴</h2>
+
+<p>게임을 종료할 때 파이프와 프로세스를 정리하는 루틴이다.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Unity</span>
+<span class="k">public</span> <span class="k">void</span> <span class="nf">CleanCmd</span><span class="p">()</span>
+<span class="p">{</span>
+	<span class="n">controllerCeaning</span> <span class="p">=</span> <span class="k">true</span><span class="p">;</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">codePipe</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="k">try</span>
+		<span class="p">{</span>
+			<span class="k">if</span> <span class="p">(</span><span class="n">codePipe</span><span class="p">.</span><span class="n">IsConnected</span><span class="p">)</span>
+			<span class="p">{</span>
+				<span class="n">codePipe</span><span class="p">.</span><span class="nf">Disconnect</span><span class="p">();</span>
+			<span class="p">}</span>
+		<span class="p">}</span>
+		<span class="k">catch</span> <span class="p">{</span> <span class="p">}</span>
+		<span class="n">codePipe</span><span class="p">.</span><span class="nf">Dispose</span><span class="p">();</span>
+		<span class="n">codePipe</span><span class="p">.</span><span class="nf">Close</span><span class="p">();</span>
+		<span class="n">codePipe</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">cmd</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="k">try</span>
+		<span class="p">{</span>
+			<span class="k">if</span> <span class="p">(!</span><span class="n">cmd</span><span class="p">.</span><span class="n">HasExited</span><span class="p">)</span>
+			<span class="p">{</span>
+				<span class="n">cmd</span><span class="p">.</span><span class="nf">Kill</span><span class="p">();</span>
+			<span class="p">}</span>
+		<span class="p">}</span>
+		<span class="k">catch</span> <span class="p">{</span> <span class="p">}</span>
+		<span class="n">cmd</span><span class="p">.</span><span class="nf">Close</span><span class="p">();</span>
+		<span class="n">cmd</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+	<span class="p">}</span>
+	<span class="k">if</span> <span class="p">(</span><span class="n">stdin</span> <span class="p">!=</span> <span class="k">null</span><span class="p">)</span>
+		<span class="n">stdin</span> <span class="p">=</span> <span class="k">null</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="k">private</span> <span class="k">void</span> <span class="nf">OnApplicationQuit</span><span class="p">()</span>
+<span class="p">{</span>
+	<span class="nf">CleanController</span><span class="p">();</span>
+<span class="p">}</span>
+
+</code></pre></div></div>
+
+<hr />
+
+<h1 id="추가적인-기능들">추가적인 기능들</h1>
+
+<p>Robospital을 교육용 게임으로 만들기 위해 필요했던 코드를 작성했다. 피드백, 코드 실행 시각화, 변수 추적 등의 기능 추가를 위해 코드를 분석하고, 디버거를 이용하는 방법이 필요했다.</p>
+
+<h2 id="python--unity-시그널-파이프-추가-연결">Python → Unity 시그널 파이프 추가 연결</h2>
+
+<p>몇몇 기능들을 추가하기 위해서, Python에서 Unity로 신호를 전달할 수 있는 추가적인 통신 수단이 필요했다. 기존 코드 파이프를 사용할 수도 있지만, 관리를 용이하게 하기 위해 추가적인 파이프를 하나 연결했다.</p>
+
+<p><img src="\assets\images\Unity-Python Integration\image%203.png" alt="image.png" /></p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//Unity</span>
+	
+	<span class="c1">//시그널 파이프 연결</span>
+	<span class="k">private</span> <span class="k">void</span> <span class="nf">RunSignalPipeWait</span><span class="p">(</span><span class="kt">string</span> <span class="n">pipeName</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="n">signalPipe</span> <span class="p">=</span> <span class="k">new</span> <span class="nf">NamedPipeServerStream</span><span class="p">(</span><span class="n">pipeName</span><span class="p">);</span>
+		<span class="n">signalPipe</span><span class="p">.</span><span class="nf">BeginWaitForConnection</span><span class="p">(</span><span class="k">new</span> <span class="nf">AsyncCallback</span><span class="p">(</span><span class="n">SingalPipeConnectionCallback</span><span class="p">),</span> <span class="n">signalPipe</span><span class="p">);</span>
+	<span class="p">}</span>
+	
+	<span class="c1">//시그널 파이프가 연결됐을 때 콜백</span>
+	<span class="k">private</span> <span class="k">void</span> <span class="nf">SingalPipeConnectionCallback</span><span class="p">(</span><span class="n">IAsyncResult</span> <span class="n">iar</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="p">{</span>
+			<span class="n">NamedPipeServerStream</span> <span class="n">signalPipe</span> <span class="p">=</span> <span class="p">(</span><span class="n">NamedPipeServerStream</span><span class="p">)</span><span class="n">iar</span><span class="p">.</span><span class="n">AsyncState</span><span class="p">;</span>
+			<span class="n">signalPipe</span><span class="p">.</span><span class="nf">BeginRead</span><span class="p">(</span><span class="n">buffer2</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">signalBufferSize</span><span class="p">,</span> <span class="n">SignalCallback</span><span class="p">,</span> <span class="k">null</span><span class="p">);</span>
+		<span class="p">}</span>
+	<span class="p">}</span>
+	
+	<span class="c1">//시그널이 왔을 때 콜백</span>
+	<span class="k">private</span> <span class="k">void</span> <span class="nf">SignalCallback</span><span class="p">(</span><span class="n">IAsyncResult</span> <span class="n">ar</span><span class="p">)</span>
+	<span class="p">{</span>
+		<span class="kt">int</span> <span class="n">readBytes</span> <span class="p">=</span> <span class="n">signalPipe</span><span class="p">.</span><span class="nf">EndRead</span><span class="p">(</span><span class="n">ar</span><span class="p">);</span>
+		<span class="k">if</span> <span class="p">(</span><span class="n">readBytes</span> <span class="p">&gt;</span> <span class="m">0</span><span class="p">)</span>
+		<span class="p">{</span>
+			<span class="kt">string</span> <span class="n">str</span> <span class="p">=</span> <span class="n">Encoding</span><span class="p">.</span><span class="n">UTF8</span><span class="p">.</span><span class="nf">GetString</span><span class="p">(</span><span class="n">buffer2</span><span class="p">);</span>
+			<span class="c1">//do something</span>
+		<span class="p">}</span>
+		<span class="n">buffer2</span> <span class="p">=</span> <span class="k">new</span> <span class="kt">byte</span><span class="p">[</span><span class="n">signalBufferSize</span><span class="p">];</span>
+		<span class="n">signalPipe</span><span class="p">.</span><span class="nf">BeginRead</span><span class="p">(</span><span class="n">buffer2</span><span class="p">,</span> <span class="m">0</span><span class="p">,</span> <span class="n">signalBufferSize</span><span class="p">,</span> <span class="n">SignalCallback</span><span class="p">,</span> <span class="k">null</span><span class="p">);</span>
+	<span class="p">}</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Python
+</span>
+<span class="c1">#시그널을 보내는 파이프 열기
+</span><span class="k">def</span> <span class="nf">WriteToSignalPipe</span><span class="p">(</span><span class="n">info</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
+	<span class="k">global</span> <span class="n">signalPipe</span>
+	<span class="n">signalPipe</span><span class="p">.</span><span class="nf">write</span><span class="p">((</span><span class="n">info</span><span class="o">+</span><span class="sh">'</span><span class="s"> </span><span class="sh">'</span><span class="p">).</span><span class="nf">encode</span><span class="p">(</span><span class="sh">'</span><span class="s">utf-8</span><span class="sh">'</span><span class="p">))</span>
+		
+<span class="n">signalPipe</span> <span class="o">=</span> <span class="nf">open</span><span class="p">(</span><span class="sh">"</span><span class="s">SignalPipe</span><span class="sh">"</span><span class="p">,</span> <span class="sh">'</span><span class="s">w+b</span><span class="sh">'</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="abatract-syntax-tree-추상-구문-트리-ast-파싱">Abatract Syntax Tree (추상 구문 트리, AST) 파싱</h2>
+
+<p><a href="https://docs.python.org/ko/3.13/library/ast.html">https://docs.python.org/ko/3.13/library/ast.html</a></p>
+
+<p>AST는 Python 소스 코드를 문법 구조에 따라 트리 형태로 표현한 자료구조로, 코드를 분석하거나 검사할 때 사용한다. Robospital에서는 import할 수 있는 모듈을 제한하거나, 연습문제에서 피드백을 주기 위해 코드를 분석하는데 사용했다.</p>
+
+<p>아래 코드는 제한된 import 모듈이 입력됐을 때 메시지를 보내는 파이썬 코드</p>
+
+<p><img src="\assets\images\Unity-Python Integration\image%204.png" alt="image.png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Python
+</span>
+<span class="kn">import</span> <span class="n">ast</span>
+<span class="kn">import</span> <span class="n">importlib.util</span>
+
+<span class="k">class</span> <span class="nc">NodeTransformer</span><span class="p">(</span><span class="n">ast</span><span class="p">.</span><span class="n">NodeTransformer</span><span class="p">):</span>
+	<span class="n">safeModules</span> <span class="o">=</span> <span class="p">(</span>
+		<span class="sh">'</span><span class="s">Safe Module Name 1</span><span class="sh">'</span><span class="p">,</span>
+		<span class="sh">'</span><span class="s">Safe Module Name 2</span><span class="sh">'</span><span class="p">,</span>
+		<span class="p">)</span>
+
+	<span class="c1">#코드에서 import를 방문했을 때
+</span>	<span class="k">def</span> <span class="nf">visit_Import</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
+		<span class="n">lineno</span> <span class="o">=</span> <span class="nf">getattr</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="sh">'</span><span class="s">lineno</span><span class="sh">'</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+		<span class="k">for</span> <span class="n">alias</span> <span class="ow">in</span> <span class="n">node</span><span class="p">.</span><span class="n">names</span><span class="p">:</span>
+			<span class="n">exists</span> <span class="o">=</span> <span class="n">importlib</span><span class="p">.</span><span class="n">util</span><span class="p">.</span><span class="nf">find_spec</span><span class="p">(</span><span class="n">alias</span><span class="p">.</span><span class="n">name</span><span class="p">)</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span>
+			<span class="k">if</span> <span class="n">exists</span><span class="p">:</span>
+				<span class="k">if</span> <span class="n">alias</span><span class="p">.</span><span class="n">name</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">safeModules</span><span class="p">:</span>
+					<span class="n">message</span> <span class="o">=</span> <span class="sh">"</span><span class="s">ImportError module </span><span class="sh">'</span><span class="s">{name}</span><span class="sh">'</span><span class="s"> is not allowed</span><span class="sh">"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">alias</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+					<span class="c1">#send message
+</span>			<span class="k">else</span><span class="p">:</span>
+				<span class="n">message</span> <span class="o">=</span> <span class="sh">"</span><span class="s">ModuleNotFoundError No module named </span><span class="sh">'</span><span class="s">{name}</span><span class="sh">'"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">alias</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+				<span class="c1">#send message
+</span>		<span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="nf">generic_visit</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+
+	<span class="c1">#코드에서 from ... import ... 를 방문했을 때
+</span>	<span class="k">def</span> <span class="nf">visit_ImportFrom</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
+		<span class="n">lineno</span> <span class="o">=</span> <span class="nf">getattr</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="sh">'</span><span class="s">lineno</span><span class="sh">'</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+		<span class="n">exists</span> <span class="o">=</span> <span class="n">importlib</span><span class="p">.</span><span class="n">util</span><span class="p">.</span><span class="nf">find_spec</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="n">module</span><span class="p">)</span> <span class="ow">is</span> <span class="ow">not</span> <span class="bp">None</span>
+		<span class="k">if</span> <span class="n">exists</span><span class="p">:</span>
+			<span class="k">if</span> <span class="n">node</span><span class="p">.</span><span class="n">module</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">self</span><span class="p">.</span><span class="n">safeModules</span><span class="p">:</span>
+				<span class="n">message</span> <span class="o">=</span> <span class="sh">"</span><span class="s">ImportError module </span><span class="sh">'</span><span class="s">{name}</span><span class="sh">'</span><span class="s"> is not allowed</span><span class="sh">"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">alias</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+				<span class="c1">#send message
+</span>		<span class="k">else</span><span class="p">:</span>
+			<span class="n">message</span> <span class="o">=</span> <span class="sh">"</span><span class="s">ModuleNotFoundError No module named </span><span class="sh">'</span><span class="s">{name}</span><span class="sh">'"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">alias</span><span class="p">.</span><span class="n">name</span><span class="p">)</span>
+			<span class="c1">#send message
+</span>		<span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="nf">generic_visit</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<p>상수에 접근했을 때 정보를 메시지로 보내는 파이썬 코드</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Python
+</span><span class="k">class</span> <span class="nc">NodeTransformer</span><span class="p">(</span><span class="n">ast</span><span class="p">.</span><span class="n">NodeTransformer</span><span class="p">):</span>	
+
+	<span class="k">def</span> <span class="nf">visit_Constant</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">node</span><span class="p">):</span>
+		<span class="n">lineno</span> <span class="o">=</span> <span class="nf">getattr</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="sh">'</span><span class="s">lineno</span><span class="sh">'</span><span class="p">,</span> <span class="bp">None</span><span class="p">)</span>
+		<span class="n">message</span> <span class="o">=</span> <span class="sh">'</span><span class="s">ast constant {lineno} {type} {value}</span><span class="sh">'</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">lineno</span><span class="o">=</span><span class="n">lineno</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nf">type</span><span class="p">(</span><span class="n">node</span><span class="p">.</span><span class="n">value</span><span class="p">).</span><span class="n">__name__</span><span class="p">,</span> <span class="n">value</span><span class="o">=</span><span class="n">node</span><span class="p">.</span><span class="n">value</span><span class="p">)</span>
+		<span class="c1">#send message
+</span>		<span class="k">return</span> <span class="n">self</span><span class="p">.</span><span class="nf">generic_visit</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>AST 파싱 후 코드를 실행하는 파이썬 main 코드</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Python
+</span><span class="kn">import</span> <span class="n">ast</span>
+<span class="kn">import</span> <span class="n">ModifiedNodeTransformer</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+	<span class="n">codeBufferSize</span> <span class="o">=</span> <span class="nf">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+	<span class="n">pipePath</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\\\\</span><span class="s">.</span><span class="se">\\</span><span class="s">pipe</span><span class="se">\\</span><span class="sh">'</span> <span class="o">+</span> <span class="sh">"</span><span class="s">CodePipe</span><span class="sh">"</span>
+		
+	<span class="n">code</span> <span class="o">=</span> <span class="nc">GetCode</span><span class="p">(</span><span class="n">codeBufferSize</span><span class="p">,</span> <span class="n">pipePath</span><span class="p">)</span>
+	
+	<span class="c1">#노드 파싱
+</span>	<span class="n">node</span> <span class="o">=</span> <span class="n">ast</span><span class="p">.</span><span class="nf">parse</span><span class="p">(</span><span class="n">code</span><span class="p">)</span>
+	<span class="n">node</span> <span class="o">=</span> <span class="nc">NodeTransformer</span><span class="p">().</span><span class="nf">visit</span><span class="p">(</span><span class="n">node</span><span class="p">)</span>
+	
+	<span class="c1">#ast에서 변경된 코드를 실행
+</span>	<span class="n">byte_code</span> <span class="o">=</span> <span class="nf">compile</span><span class="p">(</span><span class="n">node</span><span class="p">,</span> <span class="n">filename</span><span class="o">=</span><span class="sh">"</span><span class="s">fileName</span><span class="sh">"</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="sh">"</span><span class="s">exec</span><span class="sh">"</span><span class="p">)</span>
+	<span class="nf">exec</span><span class="p">(</span><span class="n">byte_code</span><span class="p">)</span>
+	
+<span class="k">if</span> <span class="n">__name__</span> <span class="o">==</span> <span class="sh">'</span><span class="s">__main__</span><span class="sh">'</span><span class="p">:</span>
+	<span class="k">try</span><span class="p">:</span>
+		<span class="nf">main</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">argv</span><span class="p">)</span>
+	<span class="k">except</span> <span class="nb">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+		<span class="nf">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="파이썬-디버거-pdb-연결과-input-함수-조정">파이썬 디버거 pdb 연결과 input 함수 조정</h2>
+
+<p><a href="https://docs.python.org/ko/3.13/library/pdb.html">https://docs.python.org/ko/3.13/library/pdb.html</a></p>
+
+<p>Python은 pdb라는 대화형 소스코드 디버거를 제공한다. 일반적으로 pdb는 터미널 환경에서 사용하기 때문에, 실행 위치나, 변수 값, 함수 호출 등 코드 실행 상태를 UI에 보여주기 어렵다.</p>
+
+<p>따라서 기존 pdb를 상속해서 각종 디버깅 신호를 파이프 메시지로 분리해서 전송했다. 그리고 신호를 받은 Unity에서는 초보자의 이해를 돕기 위해 코드 하이라이트, 변수 탐색기 업데이트 등, 코드의 실행 과정을 모두 시각화 했다.</p>
+
+<p>pdb를 디버거로 사용할 때 문제점은 pdb의 커맨드와 사용자 코드의 print, input을 구분하기 어렵다는 점이다. 따라서, 두 가지 작업이 필요했다.</p>
+
+<ol>
+  <li>pdb의 프롬프트 “(pdb)”를 stdout이 아니라, 시그널 파이프를 통해 전달해서, 사용자 코드의 output과 분리한다. pdb의 경우 출력부를 파이프로 변경하는 간단한 변경이 있었다.</li>
+  <li>코드에서 input()을 호출할 경우, 시그널 파이프를 통해 input이 들어올 차례임을 Unity에 전달한다.</li>
+</ol>
+
+<p><img src="\assets\images\Unity-Python Integration\image%205.png" alt="image.png" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Python
+</span>
+<span class="kn">import</span> <span class="n">builtins</span>
+<span class="kn">from</span> <span class="n">ModifiedPDB</span> <span class="kn">import</span> <span class="n">modified_pdb</span>
+
+<span class="k">class</span> <span class="nc">MoifiedBuiltins</span><span class="p">():</span>	
+	<span class="n">new_globals</span> <span class="o">=</span> <span class="p">{}</span>
+	<span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">):</span>
+		<span class="c1">#builtins 복사
+</span>		<span class="n">modifiedBuiltins</span> <span class="o">=</span> <span class="nf">dict</span><span class="p">(</span><span class="nf">vars</span><span class="p">(</span><span class="n">builtins</span><span class="p">))</span>
+		<span class="c1">#input 함수 대체
+</span>		<span class="n">modifiedBuiltins</span><span class="p">[</span><span class="sh">'</span><span class="s">input</span><span class="sh">'</span><span class="p">]</span> <span class="o">=</span> <span class="n">_input_</span>
+		<span class="c1">#dictinary 생성
+</span>		<span class="n">newGlobals</span> <span class="o">=</span> <span class="p">{</span><span class="sh">'</span><span class="s">__builtins__</span><span class="sh">'</span><span class="p">:</span> <span class="n">modifiedBuiltins</span><span class="p">}</span>
+
+<span class="c1">#수정된 input 함수
+</span><span class="k">def</span> <span class="nf">_input_</span><span class="p">(</span><span class="o">*</span><span class="n">prompt</span><span class="p">):</span>
+	<span class="c1">#프롬프트 길이 확인
+</span>	<span class="k">if</span> <span class="nf">len</span><span class="p">(</span><span class="n">prompt</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+		<span class="k">raise</span> <span class="nc">TypeError</span><span class="p">(</span><span class="sh">"</span><span class="s">input expected at most 1 arguments, got {length}</span><span class="sh">"</span><span class="p">.</span><span class="nf">format</span><span class="p">(</span><span class="n">length</span><span class="o">=</span><span class="nf">len</span><span class="p">(</span><span class="n">prompt</span><span class="p">)))</span>
+		
+	<span class="c1">#프롬프트 유무에 따라 시그널 보내기
+</span>	<span class="k">if</span> <span class="n">prompt</span><span class="p">:</span>
+		<span class="nc">WriteToSignalPipe</span><span class="p">(</span><span class="sh">"</span><span class="s">inputWithPrompt</span><span class="sh">"</span><span class="p">)</span>
+		<span class="nf">print</span><span class="p">(</span><span class="o">*</span><span class="n">prompt</span><span class="p">,</span> <span class="n">end</span> <span class="o">=</span> <span class="sh">""</span><span class="p">)</span>
+	<span class="k">else</span><span class="p">:</span>
+		<span class="nc">WriteToSignalPipe</span><span class="p">(</span><span class="sh">"</span><span class="s">input</span><span class="sh">"</span><span class="p">)</span>
+
+	<span class="n">val</span> <span class="o">=</span> <span class="nf">input</span><span class="p">()</span>
+
+	<span class="k">return</span> <span class="n">val</span>
+	
+<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+	<span class="n">codeBufferSize</span> <span class="o">=</span> <span class="nf">int</span><span class="p">(</span><span class="n">args</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+	<span class="n">pipePath</span> <span class="o">=</span> <span class="sh">'</span><span class="se">\\\\</span><span class="s">.</span><span class="se">\\</span><span class="s">pipe</span><span class="se">\\</span><span class="sh">'</span> <span class="o">+</span> <span class="sh">"</span><span class="s">CodePipe</span><span class="sh">"</span>
+		
+	<span class="n">code</span> <span class="o">=</span> <span class="nc">GetCode</span><span class="p">(</span><span class="n">codeBufferSize</span><span class="p">,</span> <span class="n">pipePath</span><span class="p">)</span>
+	
+	<span class="n">new_globals</span> <span class="o">=</span> <span class="nc">MoifiedBuiltins</span><span class="p">().</span><span class="n">new_globals</span>
+	
+	<span class="c1">#일반 코드 실행
+</span>	<span class="c1">#exec(code, new_globals)
+</span>	
+	<span class="c1">#pdb로 코드 실행
+</span>	<span class="n">instance</span> <span class="o">=</span> <span class="nf">modified_pdb</span><span class="p">()</span>
+	<span class="n">instance</span><span class="p">.</span><span class="nf">run</span><span class="p">(</span><span class="n">code</span><span class="p">,</span> <span class="n">new_globals</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="pyflakes-연동">Pyflakes 연동</h2>
+
+<p>Pyflakes는 파이썬 소스 코드에서 기본적인 오류를 찾아주는 분석 도구이다. 유니티 코드 에디터의 수정이 끝난 후 1초 동안 입력이 없으면, 별도의 Python 프로세스를 실행해 Pyflakes로 코드의 오류를 확인했다.</p>
+
+<p>이 경우, 사용자 코드의 output과 Pyflakes의 메시지를 구분 할 필요가 없기 때문에, stdout으로 메시지를 처리하였다. 다만, Pyflakes의 정보를 Unity에서 효과적으로 구분하기 위해 reporter.py파일을 수정하여 메시지 포맷팅을 구현했다.</p>
+
+<p>원래는 에러·경고 메시지를 다국어로 제공하고 싶었지만, 당시 번역의 품질과 유지보수 비용이 커서 영문 메시지로 고정하기로 결정했다.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Python
+</span>
+<span class="k">class</span> <span class="nc">Reporter</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">Stream</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_stdout</span> <span class="o">=</span> <span class="n">Stream</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_stderr</span> <span class="o">=</span> <span class="n">Stream</span>
+        
+    <span class="k">def</span> <span class="nf">syntaxError</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="n">msg</span><span class="p">,</span> <span class="n">lineno</span><span class="p">,</span> <span class="n">offset</span><span class="p">,</span> <span class="n">text</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_stderr</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="sh">'</span><span class="s">syntaxError:%d:%s</span><span class="se">\n</span><span class="sh">'</span> <span class="o">%</span> <span class="p">(</span><span class="n">lineno</span><span class="p">,</span> <span class="n">msg</span><span class="p">))</span>
+        
+    <span class="k">def</span> <span class="nf">flake</span><span class="p">(</span><span class="n">self</span><span class="p">,</span> <span class="n">message</span><span class="p">):</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_stdout</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="sh">"</span><span class="s">warning:</span><span class="sh">"</span><span class="o">+</span><span class="nf">str</span><span class="p">(</span><span class="n">message</span><span class="p">))</span>
+        <span class="n">self</span><span class="p">.</span><span class="n">_stdout</span><span class="p">.</span><span class="nf">write</span><span class="p">(</span><span class="sh">'</span><span class="se">\n</span><span class="sh">'</span><span class="p">)</span>
+       
+
+<span class="k">def</span> <span class="nf">_makeDefaultReporter</span><span class="p">():</span>
+    <span class="sh">"""</span><span class="s">
+    Make a reporter that can be used when no reporter is specified.
+    </span><span class="sh">"""</span>
+    <span class="k">return</span> <span class="nc">Reporter</span><span class="p">(</span><span class="n">sys</span><span class="p">.</span><span class="n">stdout</span><span class="p">)</span>
+</code></pre></div></div>]]></content><author><name>김창섭</name></author><category term="프로그래밍" /><category term="C#" /><category term="Python" /><category term="Robospital" /><category term="Unity3D" /><summary type="html"><![CDATA[기획 단계에서 Robospital을 Python 교육용 게임으로, Unity3D를 이용해 만들기로 결정했다. 따라서 사용자가 게임 안에서 코드를 작성하고, 그 코드를 곧바로 실행할 방법이 필요했다. 또한 warning이나 syntax error 하이라이팅 정보를 받아, 게임 화면에 시각적 피드백을 남길 수 있다면 초보자에게 더 직관적인 피드백을 줄 수 있을 것 같았다. 따라서 Python 코드를 문자열로 받아 Unity3D에서 직접 실행할 수 있는 방법에 대해 탐색하기 시작했다.]]></summary></entry><entry><title type="html">육성 시뮬레이션 구조, 프린세스 메이커와 우마무스메 비교</title><link href="https://neckar28.github.io/posts/raising-sims-structure" rel="alternate" type="text/html" title="육성 시뮬레이션 구조, 프린세스 메이커와 우마무스메 비교" /><published>2025-08-06T00:00:00+09:00</published><updated>2025-09-08T02:58:34+09:00</updated><id>https://neckar28.github.io/posts/%EC%9C%A1%EC%84%B1%20%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%EC%85%98%20%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%B9%84%EA%B5%90</id><content type="html" xml:base="https://neckar28.github.io/posts/raising-sims-structure"><![CDATA[<p>※ 2022년 6월 기준 자료를 재구성했습니다.</p>
+
+<h1 id="육성-시뮬레이션">육성 시뮬레이션</h1>
+
+<p>육성 시뮬레이션 게임은 아이, 애완동물, 유명인 등을 기르는 과정을 흉내 낸 생활 시뮬레이션 게임으로, 일반적인 RPG 게임의 육성 요소를 부각한 게임이라고 할 수 있다. 프린세스 메이커나, 다마고치, 우마무스메 등의 게임이 육성 시뮬레이션에 해당한다.</p>
+
+<p>육성 시뮬레이션의 목표는 정해진 시간 안에 스탯을 키워서 엔딩을 보는데 있다.</p>
+
+<p>이 문서에서는 프린세스 메이커 2와 우마무스메 프리티 더비 두 게임을 비교하여 육성 시뮬레이션에 대해 알아보려고 한다.</p>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\f2cc1b05-7f48-4fdb-a04f-3774be0ee2fb.png" alt="image.png" width="300" class="center" /></p>
+
+<h2 id="프린세스-메이커-2">프린세스 메이커 2</h2>
+
+<p>1993년 작
+가이낙스 개발</p>
+
+<p>천계에서 온 딸의 아버지가 되어 10세 부터 18세 까지 8년을 육성하는 게임. 
+무사수행 등 RPG 요소가 강한 것이 특징.</p>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\f0daa80e-49be-4147-9740-d162f4e0d3d7.png" alt="image.png" width="320" class="center" /></p>
+
+<h2 id="우마무스메-프리티-더비">우마무스메 프리티 더비</h2>
+
+<p>2021년 작
+사이게임즈 개발</p>
+
+<p>일본의 경주마들을 의인화한 미소녀들을 육성하여 레이스에서 우승하는 것이 목표. 
+레이스와 위닝 라이브가 특징.</p>
+
+<hr />
+
+<h1 id="육성-시뮬레이션-구조">육성 시뮬레이션 구조</h1>
+
+<p>육성 시뮬레이션의 구조는 프롤로그, 이 달의 행동, 스케쥴 설정, 스케쥴 실행, 엔딩과 이벤트로 이루어져 있다. 프롤로그 이후, 이달의 행동 부터 스케쥴 실행을 정해진 시간만큼 반복한다.</p>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image.png" alt="image.png" /></p>
+
+<hr />
+
+<h2 id="프롤로그">프롤로그</h2>
+
+<p>게임의 도입부로, 육성 이전의 스토리와 육성의 목표 등을 유저에게 보여준다.</p>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%201.png" alt="image.png" /></p>
+
+<p>프린세스 메이커 2의 경우, 마왕을 쓰러뜨린 플레이어의 과거와 천계에서 내려온 딸의 이야기, 공주가 된다는 목표를 보여준다.</p>
+
+<p>육성 캐릭터는 <strong>1명</strong>으로, 프롤로그는 <strong>1종</strong>이 있다.</p>
+
+<p>우마무스메 프리티 더비는 레이싱 코치가 된 플레이어의 스토리와, 육성하게 된 우마무스메의 스토리를 보여준다.</p>
+
+<p>육성 캐릭터는 <strong>27명</strong>으로, 프롤로그도 <strong>27종</strong>이 있다.</p>
+
+<hr />
+
+<h2 id="이-달의-행동">이 달의 행동</h2>
+
+<p>이 달의 행동에서는 스케쥴이 아닌 몇 가지 행동을 할 수 있도록 되어 있다. 공통적으로는 현재 스탯, 정보를 확인하거나, 나가기 등이 있다.</p>
+
+<ul>
+  <li>
+    <p>정보 확인</p>
+
+    <p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%202.png" alt="image.png" /></p>
+  </li>
+  <li>
+    <p>저장, 나가기</p>
+
+    <p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%203.png" alt="image.png" /></p>
+  </li>
+  <li>
+    <p>기타 행동</p>
+
+    <p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%204.png" alt="image.png" /></p>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="스케쥴-설정">스케쥴 설정</h2>
+
+<p>스케쥴을 실행하기 전에, 어떤 스케쥴을 실행할지 설정할 수 있다. 스케쥴은 확률에 의해 성공하거나 실패하여 스탯이나 이벤트, 엔딩에 영향을 준다. 두 게임 모두 한 달을 기준으로 스케쥴을 설정할 수 있다.</p>
+
+<p>프린세스 메이커는 한 달을 셋으로 나누어 3턴을 설정하고, 우마무스메는 한 달을 둘로 나누어 2 턴을 설정한다.</p>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%205.png" alt="image.png" /></p>
+
+<h3 id="스케쥴-종류">스케쥴 종류</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>프린세스 메이커 2</strong></th>
+      <th> </th>
+      <th><strong>우마무스메 프리티 더비</strong></th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>교육</td>
+      <td>10</td>
+      <td>트레이닝</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>아르바이트</td>
+      <td>15</td>
+      <td>휴식</td>
+      <td>2 (+1)</td>
+    </tr>
+    <tr>
+      <td>무사수행</td>
+      <td>4</td>
+      <td>레이스</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>휴식</td>
+      <td>2 (+3)</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>합계</td>
+      <td>31 (+3)</td>
+      <td>합계</td>
+      <td>8 (+1)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="턴">턴</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>턴</th>
+      <th><strong>프린세스 메이커 2</strong></th>
+      <th><strong>우마무스메 프리티 더비</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>턴/월</td>
+      <td>3턴</td>
+      <td>2턴</td>
+    </tr>
+    <tr>
+      <td>년</td>
+      <td>8년</td>
+      <td>3년</td>
+    </tr>
+    <tr>
+      <td>합계 턴 (개월)</td>
+      <td>288턴 (96개월)</td>
+      <td>72턴 (36개월)</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="스케쥴-실행">스케쥴 실행</h2>
+
+<p>설정한 한 달 스케쥴을 모두 실행한다. 성공과 실패의 계산, 성공과 실패에 따른 스탯 조절 등이 포함된다.</p>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%206.png" alt="image.png" /></p>
+
+<h3 id="스탯">스탯</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>스탯</th>
+      <th><strong>프린세스 메이커 2</strong></th>
+      <th><strong>우마무스메 프리티 더비</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>유동적 스탯</td>
+      <td>26</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>고정 스탯</td>
+      <td> </td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>합계</td>
+      <td>26</td>
+      <td>실질적 스탯은 7 종류</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="프린세스-메이커-2의-레스토랑-아르바이트"><strong>프린세스 메이커 2의 레스토랑 아르바이트</strong></h3>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%207.png" alt="image.png" /></p>
+
+<p>승락/거절 → 매일 성공 조건 계산 + 스탯 증가 + 스탯 하락 → 종료 후 아르바이트 비 정산</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>항목</th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>거절 요건</td>
+      <td>불량화 수치 ≥ 60</td>
+    </tr>
+    <tr>
+      <td>성공 조건</td>
+      <td>요리 - (난수 * 스트레스) &gt; 50</td>
+    </tr>
+    <tr>
+      <td>증가</td>
+      <td>요리 0~1</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td>스트레스 2</td>
+    </tr>
+    <tr>
+      <td>하락</td>
+      <td>전투기술 0~1</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="엔딩">엔딩</h2>
+
+<p>제한 시간이 모두 종료되면 엔딩으로 돌입한다. 프린세스 메이커가 굉장히 많은 종류의 엔딩을 제공하는 것 과 달리, 우마무스메는 성공/실패로 엔딩이 갈리는 것이 특징이다. 하지만 캐릭터 마다 다른 엔딩을 제공하고 있다.</p>
+
+<p>프린세스 메이커는 엔딩 조건마다 영향을 미치는 스탯이 많이 달라지지만, 우마무스메는 7개 모든 스탯이 성공 엔딩에 영향을 미치는 것이 특징이다.</p>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%208.png" alt="image.png" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><strong>프린세스 메이커 2</strong></th>
+      <th> </th>
+      <th><strong>우마무스메 프리티 더비</strong></th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>메인 엔딩</td>
+      <td>74</td>
+      <td>육성 캐릭터 1명당 엔딩</td>
+      <td>2 (성공/실패)</td>
+    </tr>
+    <tr>
+      <td>결혼 엔딩</td>
+      <td>* 7</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>후일담</td>
+      <td>* 3</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="프린세스-메이커-2의-학사-엔딩">프린세스 메이커 2의 학사 엔딩</h3>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%209.png" alt="image.png" /></p>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%2010.png" alt="image.png" /></p>
+
+<p><strong>조건</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>항목</th>
+      <th>조건</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>만능형</td>
+      <td>최고 평가 - 최저 평가 &lt; 50</td>
+    </tr>
+    <tr>
+      <td>B급</td>
+      <td>310 &lt; 최고 평가 ≤ 380</td>
+    </tr>
+    <tr>
+      <td>지능형</td>
+      <td>지능 ≥ 신앙, 도덕성</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>후일담</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>항목</th>
+      <th>조건</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>굿</td>
+      <td>감수성 ≥ 300</td>
+    </tr>
+    <tr>
+      <td>노멀</td>
+      <td>감수성 ≥ 100</td>
+    </tr>
+    <tr>
+      <td>배드</td>
+      <td>감수성 &lt; 100</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="이벤트">이벤트</h2>
+
+<p>이벤트는 위의 다섯 가지 구조 사이에서 등장한다.</p>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%2011.png" alt="image.png" /></p>
+
+<h3 id="이벤트-개수">이벤트 개수</h3>
+
+<ol>
+  <li>
+    <p>프린세스 메이커 2의 이벤트</p>
+
+    <p>약 60종</p>
+  </li>
+  <li>
+    <p>우마무스메 프리티 더비의 이벤트</p>
+
+    <p>육성 캐릭터 1명 → 90 개
+ 서포트 캐릭터 6명, 각각 5 개 → 30 개
+ 메인 시나리오 → 28 개</p>
+
+    <p>육성 캐릭터 1명 당 약 150개 등장 가능</p>
+  </li>
+</ol>
+
+<h3 id="이벤트-구현-차이">이벤트 구현 차이</h3>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%2012.png" alt="image.png" /></p>
+
+<p>프린세스 메이커는 새로운 리소스 + 새로운 대사로 이벤트 구성</p>
+
+<p>우마무스메는 기존 리소스 + 새로운 대사로 이벤트 구성 → 한정된 리소스로 게임을 풍성하게 만듦</p>
+
+<hr />
+
+<h1 id="결론">결론</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th><strong>프린세스 메이커 2</strong></th>
+      <th><strong>우마무스메</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>육성 캐릭터</td>
+      <td>1</td>
+      <td>27</td>
+    </tr>
+    <tr>
+      <td>스탯</td>
+      <td>26</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>스케쥴</td>
+      <td>31</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>턴 (개월)</td>
+      <td>288 (96개월)</td>
+      <td>72 (36개월)</td>
+    </tr>
+    <tr>
+      <td>엔딩</td>
+      <td>74 (× 7, × 3)</td>
+      <td>2 (54)</td>
+    </tr>
+    <tr>
+      <td>이벤트</td>
+      <td>60</td>
+      <td>150</td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li>데이터를 보면 엔딩, 스탯, 스케쥴, 턴 개수가 비례하는 것을 볼 수 있다.</li>
+  <li>프린세스 메이커와 우마무스메는 게임을 풍성하게 만든 방법이 다르다.
+    <ol>
+      <li>프린세스 메이커는 많은 엔딩을 보기 위한 시스템을 가지고 있다.</li>
+      <li>우마무스메는 다양한 캐릭터의 스토리를 전달하기 위한 시스템을 가지고 있다.</li>
+    </ol>
+  </li>
+</ol>
+
+<p>따라서 팬게임을 개발하기 시작할 때, 해당 수치들을 어떻게 채울 것인지 고민했다. 특히 게임의 깊이, 풍성함과 팬게임의 현실적인 볼륨, 팬게임의 방향성 사이에서 적절한 지점을 잡는데 공을 들였다.</p>
+
+<hr />
+
+<p>아래는 2023년 8월에 공주님을 부탁해!를 배포할 당시 결과물이다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th><strong>프린세스 메이커 2</strong></th>
+      <th><strong>우마무스메</strong></th>
+      <th>공주님을 부탁해!</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>육성 캐릭터</td>
+      <td>1</td>
+      <td>27</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>스탯</td>
+      <td>26</td>
+      <td>7</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>스케쥴</td>
+      <td>31</td>
+      <td>8</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>턴 (개월)</td>
+      <td>288 (96개월)</td>
+      <td>72 (36개월)</td>
+      <td>96 (96개월)</td>
+    </tr>
+    <tr>
+      <td>엔딩</td>
+      <td>74 (× 7, × 3)</td>
+      <td>2 (54)</td>
+      <td>48 (x 2)</td>
+    </tr>
+    <tr>
+      <td>이벤트</td>
+      <td>60</td>
+      <td>150</td>
+      <td>20 (+12)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><img src="\assets\images\육성 시뮬레이션 구조와 비교\image%2013.png" alt="image.png" /></p>
+
+<hr />
+
+<h1 id="references">References</h1>
+
+<ul>
+  <li>서혀니즘, 네이버 블로그
+<a href="https://blog.naver.com/luv_seohyun">https://blog.naver.com/luv_seohyun</a></li>
+  <li>샐군, 네이버 블로그 
+<a href="https://blog.naver.com/aidiid">https://blog.naver.com/aidiid</a></li>
+  <li>카나코의 잡지식창고, 이글루스 
+<a href="http://purearea.egloos.com/3991064">http://purearea.egloos.com/3991064</a>
+<a href="http://purearea.egloos.com/6051402">http://purearea.egloos.com/6051402</a></li>
+  <li>프린세스메이커*육성다이어리, 네이버 카페
+<a href="https://cafe.naver.com/p1234">https://cafe.naver.com/p1234</a>
+<a href="https://cafe.naver.com/p1234/89339">https://cafe.naver.com/p1234/89339</a></li>
+  <li>위키 백과
+<a href="https://ko.wikipedia.org/wiki/프린세스_메이커_2">https://ko.wikipedia.org/wiki/프린세스_메이커_2</a></li>
+  <li>프린세스 메이커 공략정보(일본어)
+<a href="https://w.atwiki.jp/princessmaker1-5/">https://w.atwiki.jp/princessmaker1-5/</a></li>
+</ul>]]></content><author><name>김창섭</name></author><category term="기획" /><category term="공주님을부탁해!" /><summary type="html"><![CDATA[※ 2022년 6월 기준 자료를 재구성했습니다.]]></summary></entry><entry><title type="html">코드 에디터 UI 기획</title><link href="https://neckar28.github.io/posts/code-editor-ui-design" rel="alternate" type="text/html" title="코드 에디터 UI 기획" /><published>2025-08-06T00:00:00+09:00</published><updated>2025-09-08T02:58:34+09:00</updated><id>https://neckar28.github.io/posts/%EC%BD%94%EB%93%9C%20%EC%97%90%EB%94%94%ED%84%B0%20UI%20%EA%B8%B0%ED%9A%8D</id><content type="html" xml:base="https://neckar28.github.io/posts/code-editor-ui-design"><![CDATA[<h1 id="robospital--코드-에디터-ui">Robospital  코드 에디터 UI</h1>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image.png" alt="Visual Studio 2022의 인터페이스" /><em>Visual Studio 2022의 인터페이스</em></p>
+
+<p>갓 대학에 들어갔을 때, 첫 IDE로 Visual Studio 2008을 썼었다. 흰 바탕에 깔끔한 IDE 였고 대부분의 IDE가 비슷하게 복잡하긴 하지만, 처음 프로그래밍을 접하는 사람에겐 익히기 쉽지 않았다.</p>
+
+<p>Robospital은 초보자들이 쉽게 프로그래밍에 입문할 수 있도록 도움을 주는 프로그램이다. 따라서 UI를 기획할 때도 IDE를 간소화 해서, 인지적 부하를 줄이려고 했다. 이 문서에서는 UI를 구성하면서 신경썼던 부분들이나, 아쉬웠던 부분에 대해 이야기 해보려고 한다. UI 구성 및 디자인은 최다영님과 함께 작업했다.</p>
+
+<p>두 가지 원칙을 가지고 UI를 구성했다.</p>
+
+<ol>
+  <li><strong>최소한의 버튼과 기능</strong></li>
+  <li><strong>게임 진행과 함께 UI 해금 (점진적 학습)</strong></li>
+</ol>
+
+<hr />
+
+<h2 id="구성">구성</h2>
+
+<p>Robospital의 UI 구성은 다음과 같다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%201.png" alt="image.png" class="center" /></p>
+
+<ol>
+  <li>뒤로 가기</li>
+  <li>설정</li>
+  <li>코드 실행 속도 조절 다이얼</li>
+  <li>컨트롤 패널</li>
+  <li>요구사항/변수 탐색기</li>
+  <li>제출하기</li>
+  <li>코드 에디터</li>
+  <li>Output 출력</li>
+  <li>Dictionary</li>
+</ol>
+
+<hr />
+
+<h2 id="전체적인-분위기">전체적인 분위기</h2>
+
+<p>문제 선택 화면이 전체적으로 밝은 분위기인 것과 대조적으로, 코딩 화면은 어둡게 하여 사용자의 몰입감을 올리려고 했다.</p>
+
+<h2 id="코드-실행-속도-조절-다이얼">코드 실행 속도 조절 다이얼</h2>
+
+<p>코드 실행 속도 조절 다이얼은 처음에 원형으로 디자인 되었다. 다이얼의 크기가 충분히 클 경우에는 다이얼의 중심을 기준으로 클릭 시작 점과 현재 마우스 위치를 계산하여 회전을 반영하는 것이 어색하지 않다. 하지만 다이얼의 크기가 작을 경우에는 마우스의 움직임과 다이얼의 회전이 직관적이지 않다.</p>
+
+<p>그래서 다이얼의 모양을 다음과 같이 Semi-Circular 게이지로 수정하였다. 이 모양으로 다이얼의 회전을 좌우 직선 형태의 마우스 움직임에 적절하게 매핑할 수 있었다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%202.png" alt="image.png" class="center" /></p>
+
+<h2 id="컨트롤-패널">컨트롤 패널</h2>
+
+<p>컨트롤 패널의 버튼은 게임을 진행하며 하나씩 늘어나도록 해서, 사용자가 각각의 버튼에 익숙해질 수 있도록 했다. StepInto (Step) 버튼은 4 번째 문제(변수 선언)부터 등장하고, StepOver (Next) 버튼은 71 번째 문제 (함수)부터 등장한다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%203.png" alt="image.png" width="400" class="center" /></p>
+
+<h2 id="요구사항변수-탐색기">요구사항/변수 탐색기</h2>
+
+<p>변수 탐색기도 처음부터 등장하지 않고, 4 번째 문제(변수 선언)부터 등장하도록 했다.</p>
+
+<h2 id="제출하기">제출하기</h2>
+
+<p>제출하기를 클릭하게 되면 코딩 화면을 전부 가리는 결과 화면이 나타나고, 사용자가 코딩 과정에 연속적으로 집중하기 어려워진다. 따라서 제출하기 버튼은 다른 버튼들과 거리를 두어, 미스 클릭을 방지하려고 했다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%204.png" alt="image.png" class="center" /></p>
+
+<h2 id="코드-에디터">코드 에디터</h2>
+
+<p>코드 에디터는 Trivial Interactive의 “<a href="https://assetstore.unity.com/packages/tools/integration/roslyn-c-runtime-compiler-142753"><strong>Roslyn C# - Runtime Compiler</strong></a>” 에셋을 기반으로 기능들을 추가하거나 변경하여 만들어졌다. 다음과 같은 기능들을 직접 개발하였다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%205.png" alt="image.png" class="center" /></p>
+
+<ol>
+  <li>
+    <p>Python 키워드 기반 문법 하이라이팅</p>
+
+    <p>기존 에셋을 기반으로 키워드를 수정하여 제작하였다. InputField에 작성된 텍스트는 MainText에서 처리되는데, MainText의 글자는 무색으로 화면에 표시되지 않는다. 대신 하이라이팅 처리가 된 텍스트가 HighlightedText에 표현된다. 이러한 하이라이팅 처리는 InputField에 변화가 생길 때 마다 갱신된다.</p>
+  </li>
+  <li>
+    <p>추가적인 라인 하이라이팅</p>
+
+    <p>기존 에셋의 작성중인 라인 하이라이팅을 수정하여, 코드 실행 중에도 실행 중인 라인을 하이라이트 하거나, 함수의 return이 있을 때 돌아가는 위치를 하이라이팅 하는 기능 등을 추가하였다.</p>
+  </li>
+  <li>
+    <p>Pyflakes를 이용한 오류/에러 하이라이팅</p>
+
+    <p>Pyflakes에서 받은 정보를 바탕으로 TextMeshPro의 Mark 태그를 활용해 오류/에러를 표시한다. 표시 처리된 텍스트는 FlakesText에서만 표시하는데, MainText처럼 텍스트는 무색으로 처리하여, HighlightedText의 배경색만 활용한다. 또한 Link 태그를 활용해 마우스를 배경 위에 올리면, 마우스를 따라다니는 작은 팝업을 띄워 오류/에러 메시지를 출력했다.</p>
+  </li>
+  <li>
+    <p>Undo, Redo</p>
+
+    <p>Undo/Redo를 구현하기 위해 circular queue를 만들어서, 코드와 caret 포지션을 저장했다. ctrl+z, ctrl+y에 동작하도록 키를 매핑하였다.</p>
+  </li>
+  <li>
+    <p>CJK IME 합성 대응</p>
+
+    <p>한글, 중국어, 일본어 등은 키를 누를 때 글자가 확정 되지 않고, 조합 중인 composition string이 바뀐다. 이것은 MainText에서 일어나기 때문에, 자연스럽게 표현하기 위해 HighlightedText에 표현할 필요가 있었다. 또한 composition string의 변화는 InputField의 onValueChanged에서 감지되지 않아서, 타이핑 소리를 composition string의 변화에서도 출력해야 했다.</p>
+  </li>
+</ol>
+
+<p>코드 에디터가 작은 것은 아쉬운 점이다. 에디터가 예쁘게 나오는 대신 크기가 작아져 최대 10 줄 정도만 표시 가능하다. 대부분의 문제들이 10 줄 내외로 작성 가능하여 초반에는 큰 문제가 없다. 하지만 후반부의 도전적인 문제들은 많은 코드를 필요로 하고, 초보자들의 경우에는 어떤 코드를 작성할지 예측하기 어렵다는 점에서, 더 넓은 코드 에디터를 제공하는 것이 개선 과제로 남는다.</p>
+
+<p><img src="\assets\images\코드 에디터 UI 기획\image%206.png" alt="image.png" class="center" /></p>]]></content><author><name>김창섭</name></author><category term="기획" /><category term="Robospital" /><summary type="html"><![CDATA[Robospital 코드 에디터 UI]]></summary></entry><entry><title type="html">왜 파이썬이었나?</title><link href="https://neckar28.github.io/posts/why-did-i-choose-python" rel="alternate" type="text/html" title="왜 파이썬이었나?" /><published>2025-08-05T00:00:00+09:00</published><updated>2025-09-08T03:07:11+09:00</updated><id>https://neckar28.github.io/posts/%EC%99%9C%20%ED%8C%8C%EC%9D%B4%EC%8D%AC%EC%9D%B4%EC%97%88%EB%82%98</id><content type="html" xml:base="https://neckar28.github.io/posts/why-did-i-choose-python"><![CDATA[<p>Robospital은 프로그래밍 교육용 프로그램으로, 프로그래밍 언어로 Python을 채택했다. 왜 파이썬을 선택했을까?</p>
+
+<p><img src="/assets/images/왜 파이썬이었나/1.png" alt="Github 2014 - 2024 프로그래밍 언어 사용 순위" /><em>https://github.blog/news-insights/octoverse/octoverse-2024/</em></p>
+
+<p>Robospital을 처음 기획하던 2020년 기준으로, Python은 가장 많이 사용되는 프로그래밍 언어는 아니었다. 하지만 몇 가지 이유로 Python을 채택 했다.</p>
+
+<ol>
+  <li>
+    <p><strong>Python을 활용해 본 경험이 있어서, 프로그래밍 문제를 만들거나 구현에 적합했다.</strong></p>
+
+    <p>이 전에 대학원 연구실에 다닐 때 Python을 활용해 본 경험이 있었다. 
+ 내가 처음으로 다뤘던 게임, VR 엔진은 WorldViz의 Vizard였는데, Python 기반의 엔진이었다. 첫 연구는 아이트래커 기반의 인지 패턴 연구였는데, tobii의 스크린용 아이트래커를 Vizard 엔진에서 활용해야 했다. 아이트래커의 C++ API를 dll화 하고 Python에 integration하여, Vizard에서 calibration, 위치 추적 등을 가능하도록 했었다.
+ 이후 두 편의 논문 작성 과정에서도 그래프 등 데이터 시각화에 Python을 적극적으로 활용했다.</p>
+  </li>
+  <li>
+    <p><strong>AI 시대에 가장 많이 쓸 프로그래밍 언어로 예측했다.</strong></p>
+
+    <p>2016년 알파고의 등장 이후, 2020년까지 딥러닝 관련 언어는 Python이 대세였다. TensorFlow나 PyTorch 등 다양한 딥러닝/머신러닝 프레임워크가 Python을 중심으로 발전하고 있었기 때문에, 이 후 AI의 수요가 늘어날 경우 Python의 수요 역시 같이 늘어날 것이라고 생각했다. 이러한 생각은 2025년 현재 어느정도 맞아 떨어진 것으로 보인다.</p>
+  </li>
+  <li>
+    <p><strong>프로그래밍 입문 언어로 Python이 주목받던 시기였다.</strong></p>
+
+    <p>그 전까지 프로그래밍 입문 언어는 C가 대세였는데, 2020년 무렵 대학에서 Python이 C언어를 빠르게 대체하고 있었다. 당시 프로그래밍 교육을 공대에서 전교생으로 확대하는 분위기가 있었고, Python이 C언어 보다 입문하기 쉬웠기 때문이다.</p>
+  </li>
+  <li>
+    <p><strong>JavaScript도 후보군에 있었지만 경험이 없었고, CLI 문제에 적합해 보이지 않았다.</strong></p>
+
+    <p>JavaScript나 웹 프로그래밍을 경험해보지 않아서, 실제 구현을 구체화하거나 선택지를 다양화하기 어려웠다. JavaScript의 V8 엔진을 Unity에 integration하는 방법이 있었지만 난이도가 높아 보였고, 다른 선택지는 떠오르지 않았다.
+ 특히 JavaScript는 웹 언어라는 인식이 강했는데, 그 때문에 CLI 문제를 푸는데 적합해 보이지는 않았다.</p>
+  </li>
+</ol>]]></content><author><name>김창섭</name></author><category term="기획" /><category term="Python" /><category term="Robospital" /><summary type="html"><![CDATA[Robospital은 프로그래밍 교육용 프로그램으로, 프로그래밍 언어로 Python을 채택했다. 왜 파이썬을 선택했을까?]]></summary></entry><entry><title type="html">Robospital의 프로그래밍 문제와 학습과정</title><link href="https://neckar28.github.io/posts/robospital-programming-contents" rel="alternate" type="text/html" title="Robospital의 프로그래밍 문제와 학습과정" /><published>2025-08-05T00:00:00+09:00</published><updated>2025-09-08T02:58:34+09:00</updated><id>https://neckar28.github.io/posts/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%20%EB%AC%B8%EC%A0%9C%EC%99%80%20%ED%95%99%EC%8A%B5%EA%B3%BC%EC%A0%95</id><content type="html" xml:base="https://neckar28.github.io/posts/robospital-programming-contents"><![CDATA[<p>프로그래밍 퍼즐 구성은 Robospital 기획의 핵심적인 파트이다. 퍼즐은 교육용으로 제작되어야 했기 때문에 몇 가지 원칙을 가지고 프로그램을 구성했다. 원칙들은 다음과 같다.</p>
+
+<ol>
+  <li>따라 쓰기에서 시작해서 응용으로 끝낸다.</li>
+  <li>가급적이면 한 문제에 새로운 요소를 하나 넣는다.</li>
+  <li>어떤 문제에서 어떤 지식을 선행하여 알고 있어야 하는지 확인해야한다.</li>
+  <li>응용문제는 실생활의 언어를 사용하여, 사용자가 학습에 효능감을 얻도록 한다.</li>
+</ol>
+
+<p>또한 기초적인 프로그래밍 개념들을 대부분 포함하길 바랬기 때문에 다음과 같은 내용들을 커버할 수 있도록 구성했다.</p>
+
+<ol>
+  <li>입출력</li>
+  <li>계산</li>
+  <li>분기문</li>
+  <li>리스트</li>
+  <li>반복문</li>
+  <li>함수</li>
+</ol>
+
+<p>따라서 다음과 같은 방식으로 문제가 구성되었다.</p>
+
+<hr />
+
+<h1 id="1-2층-로봇병원">1, 2층 로봇병원</h1>
+
+<p>다음은 로봇병원의 1층과 2층 문제 (1 ~ 4 챕터)의 흐름을 표현한 그림이다.</p>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image.png" alt="image.png" /></p>
+
+<p>초반 파트는 사용자에게 두 가지를 학습시키는데 공을 들였다.</p>
+
+<ol>
+  <li>string input을 입력받아 처리할 수 있게 된다.</li>
+  <li>계산된 결과를 출력할 수 있게 된다.</li>
+</ol>
+
+<p>두 가지가 가능해야 사용자는 정적인 프로그램이 아니라, 다양한 input에 대응하는 ‘자동화’ 기계를 만드는 경험을 하게 된다. 일반적으로 Python 튜토리얼에 input이 맨 앞에 나오는 경우가 많지 않지만 여기서는 input을 가장 앞으로 가져왔다. 사용자는 input 챕터 이후, 기초적인 학습을 위한 따라쓰기를 하는 경우를 제외하면 계속해서 동적 프로그램을 작성하게 된다.</p>
+
+<p>또한 형 변환을 통해 string input을 숫자로 바꿀줄 알아야, 숫자 계산이 가능해지므로, 형 변환을 input과 수학 연산자 사이에 배치했다.</p>
+
+<h2 id="1-챕터---output">1 챕터 - Output</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 1.png" alt="image.png" /></p>
+
+<p>그림의 노란색은 문제 제목, 초록색 부분은 필요한 프로그래밍, Python 개념이다. Output 챕터에서 사용자는 문자열과 숫자 리터럴, 변수의 출력을 경험해보게 된다. 그리고 두 줄 이상의 코드를 작성해보고 코드가 위부터 아래로 작동하는 것을 확인하게 된다.</p>
+
+<h2 id="2-챕터---input">2 챕터 - Input</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 2.png" alt="image.png" /></p>
+
+<p>Input 챕터에서 사용자는 input으로 입력 받은 문자열을 그대로 출력하거나, 변수에 저장했다가 출력하는 경험을 하게 된다.</p>
+
+<h2 id="3-챕터---types">3 챕터 - Types</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 3.png" alt="image.png" /></p>
+
+<p>Types 챕터에서는 input으로 받은 string을 숫자로 바꾸는 경험을 하게 된다. Python의 실수 계산은 오차가 발생하기 때문에, 3챕터 이후 실수 계산은 한 문제를 제외하고 배제하였다.</p>
+
+<h2 id="4-챕터---numeric-operators">4 챕터 - Numeric Operators</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 4.png" alt="image.png" /></p>
+
+<p>Numeric 챕터에서는 사칙연산을 경험하게 되며, 시간, 음료수 가격 계산 등 간단한 응용 문제를 푼다.</p>
+
+<hr />
+
+<h1 id="3층-호텔-4층-도서관">3층 호텔, 4층 도서관</h1>
+
+<p>3층과 4층(5 ~ 10 챕터)은 사용자가 반복문을 다룰 수 있게 되는 데 초점을 맞췄다. Python은 두 가지 반복문을 제공하는데, while문과 for문이다. C언어의 for문이 조건에 따라 반복을 결정하는 것과 달리, Python의 for문은 시퀀스(string, list 등)를 따라 순회한다. 따라서 Python의 while과 for는 완전히 다른 성격을 갖게 되고, 각각을 배우기 위해 알아야 하는 요소들도 달라지게 된다.</p>
+
+<ol>
+  <li>while문은 불 타입, 비교에 대해 알아야 한다.</li>
+  <li>for문은 시퀀스에 대해 알아야 한다.</li>
+</ol>
+
+<p>따라서 comparison, if, while로 이어지는 3층 (호텔) 구조와 string, list , for로 이어지는 4층 (도서관) 구조를 만들게 되었다.</p>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 5.png" alt="image.png" /></p>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 6.png" alt="image.png" /></p>
+
+<p>비교 및 분기문과 시퀀스 구조 중 비교와 분기문이 더 난이도가 높다고 생각했지만, 만약 분기문을 익힌 상태에서 시퀀스를 익히게 된다면, 시퀀스 관련 문제를 더 풍부하게 만들 수 있을거라고 판단했다. 따라서 비교 및 분기문을 3층에, 시퀀스를 4층에 배치하였다.</p>
+
+<h2 id="5-챕터---comparison-operators">5 챕터 - Comparison Operators</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 7.png" alt="image.png" /></p>
+
+<p>Comparison 챕터에서 사용자는 숫자와 문자열을 비교하고, 계산과 섞어서 비교를 응용하게 된다. 모듈러를 이용해 홀수, 짝수를 판단하는 방법은 굉장히 흔하게 사용되기 때문에 경험하도록 했다. 예약 목록과 입력을 비교하는 응용 문제를 포함한다.</p>
+
+<h2 id="6-챕터---if">6 챕터 - if</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 8.png" alt="image.png" /></p>
+
+<p>if 챕터에서 사용자는 if와 elif, else를 사용할 수 있게 된다. 윤년을 판단하는 기준이 세 가지 (4의 배수, 100의 배수 아님, 400의 배수) 있기 때문에 조건을 하나씩 늘려가며 셋으로 나눠 출제하는 것으로 난이도 조절을 하였다. 호텔 층이라는 컨셉을 살려서, 호텔에서 쓰일 법한 예약 확인, 방 선택 등의 응용 문제를 만들었다.</p>
+
+<h2 id="7-챕터---while">7 챕터 - while</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 9.png" alt="image.png" /></p>
+
+<p>while 챕터에서 사용자는 while의 활용을 배우게 된다. 루프를 돌며 변수를 증가 혹은 감소 시키거나 조건문을 함께 사용하도록 하였다. while문의 마지막 문제에서는 반복문을 통해 음식 주문을 받고, 주문을 출력하는 응용 문제를 출제했다. 사용자가 이 문제를 풀 수 있도록 하기 위해 입력값에 따라 종료하는 프로그램을 작성해보도록 하였다.</p>
+
+<h2 id="8-챕터---string">8 챕터 - String</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 10.png" alt="image.png" /></p>
+
+<p>String 챕터에서 사용자는 시퀀스의 기본적인 인덱싱, 슬라이싱, 길이 측정을 경험하고, 각각의 문자에 접근한 처리를 시도해보게된다.</p>
+
+<h2 id="9-챕터---list">9 챕터 - List</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 11.png" alt="image.png" /></p>
+
+<p>List 챕터에서는 string에서 활용했던 인덱싱, 슬라이싱 등을 사용해보고, list 메서드를 사용해보게 된다. 특히 str.split()을 통해 list를 만드는 방법을 익혀, list input을 처리하는 방법에 대해 알게된다.</p>
+
+<h2 id="10-챕터---for">10 챕터 - for</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 12.png" alt="image.png" /></p>
+
+<p>for 챕터에서 사용자는 도서관 컨셉에 맞춰, 책들에 대한 데이터를 리스트로 입력받고 반복문을 통해 처리하는 경험을 하게 된다.</p>
+
+<hr />
+
+<h1 id="옥상-5층-왕성">옥상, 5층 왕성</h1>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 13.png" alt="image.png" /></p>
+
+<p>3층과 4층 이후에는 반복문을 추가적으로 학습할 수 있도록 별찍기 문제를 배치했다. 병원 건물을 차례로 올라간다는 컨셉에서, 옥상이 등장하면 별찍기 문제가 등장하는 것이 굉장히 자연스러웠다. 따라서 사용자는 4층(Starry Night)을 클리어 한 후, 옥상을 먼저 들렀다가 최종 층인 5층으로 진행하게 된다.</p>
+
+<p>5층에서는 function 작성에 대한 방법과, 도전적인 문제들을 배치했다.</p>
+
+<h2 id="11-챕터---starry-night">11 챕터 - Starry Night</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 14.png" alt="image.png" /></p>
+
+<p>11 챕터에서 별찍기 문제를 통해 반복문을 연습하게 된다. 기본적인 애스터리스크 (*)의 출력에서 시작해서, 반복문, 2중 반복문으로 진행하게 된다.</p>
+
+<h2 id="12-챕터---function">12 챕터 - function</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 15.png" alt="image.png" /></p>
+
+<p>12 챕터에서 함수 작성에 대해 알아보게 된다. 함수는 코드를 재사용 가능하게 하고, 가독성을 향상하는 중요한 개념이지만, 간단한 문제는 함수 없이 해결 가능하다는 문제점을 가지고 있다. 함수를 반드시 작성하도록 하는 문제에 대해서 고민해봤으나, 마땅한 방법을 찾지 못해, fucntion 챕터가 대부분 따라쓰기로 구성된 점은 아쉬움으로 남는다.</p>
+
+<h2 id="13-챕터---challenging">13 챕터 - Challenging</h2>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 16.png" alt="image.png" /></p>
+
+<p>13 챕터에서는 도전적인 문제들을 풀게된다. 분기문과 반복문을 다양한 방식으로 사용해볼 수 있도록 구성했으며, 이전 챕터에서 활용했던 컨셉들을 활용하려고 노력했다.</p>
+
+<hr />
+
+<h1 id="통계">통계</h1>
+
+<p><img src="/assets/images/프로그래밍 문제와 학습과정/image 17.png" alt="image.png" /></p>
+
+<p>Robospital은 각 챕터를 클리어할 때 마다 도전과제를 클리어 할 수 있게 했다. 그림은 Robospital의 도전과제 클리어 통계인데, 이를 통해 사람들이 어느 챕터까지 도달했는지를 확인할 수 있다.</p>
+
+<p>초반 1 ~ 2 챕터 완주율은 80%대로 매우 높은 편이지만, 5챕터 완주율 50%, 13챕터 완주율 10%로 낮아지는 것을 확인할 수 있었다.</p>
+
+<p>사실 Robospital은 전통적인 교육 플랫폼이 아니라 Steam에서 출시된 프로그램이다. 교육용 소프트웨어 보다는, 게임 플랫폼에서 경험하는 코딩 학습에 가깝다. 그런 점에서 <strong>Robospital의 완주율은 다른 퍼즐 게임에 비해 낮다고 보기 어렵다.</strong> 이러한 점을 고려했을 때, 프로그래밍 퍼즐을 여타 게임과 비슷한 수준까지 플레이 할 수 있게 했다는 점에서, Robopital이 충분히 의미 있었다고 해석할 수 있다.</p>
+
+<p><strong>특히 전체 플레이어의 80% 이상이 초반 1~2챕터를 경험하고, 50%가 5~6 챕터에 도달한 점은 Robospital이 프로그래밍 입문 경험을 게임처럼 쉽고 부담없게 만들었다는 의미로 해석할 수 있다.</strong></p>
+
+<p>완주율이 급감하는 7챕터와 13챕터는 프로그래밍 학습자료에서 흔히 나타나는 난관 구간이다. 7챕터는 반복문, 13챕터는 도전적인 문제들을 모은 챕터이다. 반복문이나 도전 문제의 진입장벽을 낮추기 위해 단계를 더 세분화하거나, 미니게임, 수집형 목표, 더 강한 실생활 연계 등 다양한 동기부여 요소를 도입하는 방안이 개선 과제로 남는다.</p>]]></content><author><name>김창섭</name></author><category term="기획" /><category term="Python" /><category term="Robospital" /><summary type="html"><![CDATA[프로그래밍 퍼즐 구성은 Robospital 기획의 핵심적인 파트이다. 퍼즐은 교육용으로 제작되어야 했기 때문에 몇 가지 원칙을 가지고 프로그램을 구성했다. 원칙들은 다음과 같다.]]></summary></entry></feed>
