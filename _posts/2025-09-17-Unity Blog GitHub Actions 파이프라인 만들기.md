@@ -1,6 +1,6 @@
 ---
 title:  "Unity-Blog-GitHub Actions 파이프라인 만들기"
-date:   2025-09-17
+date:   2025-09-18
 categories: "CI/CD"
 tags: 프로그래밍 CI/CD 자동화
 permalink: /posts/unity-blog-github-actions-pipeline
