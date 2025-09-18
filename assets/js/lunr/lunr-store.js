@@ -53,8 +53,8 @@ var store = [{
         "url": "/posts/bug-report-statistics",
         "teaser": null
       },{
-        "title": "Unity CI CD",
-        "excerpt":" ","categories": ["프로그래밍"],
+        "title": "Unity CI\\CD",
+        "excerpt":"원본    깃헙을 통해서 Deploy된 게임   ","categories": ["프로그래밍"],
         "tags": [],
         "url": "/posts/unity-ci-cd",
         "teaser": null
