@@ -53,9 +53,9 @@ var store = [{
         "url": "/posts/bug-report-statistics",
         "teaser": null
       },{
-        "title": "Unity CI\\CD",
-        "excerpt":"원본    깃헙을 통해서 Deploy된 게임   ","categories": ["프로그래밍"],
-        "tags": [],
-        "url": "/posts/unity-ci-cd",
+        "title": "Unity-Blog-GitHub Actions 파이프라인 만들기",
+        "excerpt":"테크 PM 포지션에 지원해보기 위해 간단하게나마 Devops 경험이 필요하다고 생각해서, 간단한 CI/CD 파이프라인을 만들어보았다. 개요 목표 Unity WebGL 빌드를 github에 commit하는 것 만으로 블로그에 업로드 할 수 있게 한다. 환경 Unity3D 6000.0.41f1 Jekyll, Minimal-Mistakes theme GitHub, GitHub Actions 구조 GitHub Actions https://docs.github.com/ko/actions GitHub Actions 사용하기 Repository의 .github/workflow/ 디렉토리에 정의 파일(yml)을...","categories": ["CI/CD"],
+        "tags": ["프로그래밍","CI/CD","자동화"],
+        "url": "/posts/unity-blog-github-actions-pipeline",
         "teaser": null
       }]
