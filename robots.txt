@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://neckar28.github.io/sitemap.xml
+Sitemap: https://neckar28.github.io/feed.xml
+
+# Disallow crawling of certain paths
+Disallow: /assets/
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /search/
+
+# Allow crawling of main content
+Allow: /posts/
+Allow: /categories/
+Allow: /tags/
+Allow: /portfolio/
