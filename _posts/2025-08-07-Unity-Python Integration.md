@@ -6,7 +6,6 @@ tags: C# Python Robospital Unity3D
 permalink: /posts/unity-python-integration
 description: "Unity3D에서 Python 인터프리터를 통합하는 완전한 가이드. 프로세스 실행, 파이프 연결, AST 파싱, 디버거 연동부터 Pyflakes까지 실무 구현 과정."
 excerpt: "Unity3D 게임에서 Python 코드를 실시간으로 실행하고 디버깅할 수 있는 통합 시스템 구현 과정을 다룹니다."
-author: "김창섭"
 ---
 
 기획 단계에서 Robospital을 **Python 교육용 게임**으로, **Unity3D**를 이용해 만들기로 결정했다. 따라서 사용자가 게임 안에서 코드를 작성하고, 그 코드를 곧바로 실행할 방법이 필요했다. 또한 warning이나 syntax error 하이라이팅 정보를 받아, 게임 화면에 시각적 피드백을 남길 수 있다면 초보자에게 더 직관적인 피드백을 줄 수 있을 것 같았다. 따라서 Python 코드를 문자열로 받아 Unity3D에서 직접 실행할 수 있는 방법에 대해 탐색하기 시작했다. 

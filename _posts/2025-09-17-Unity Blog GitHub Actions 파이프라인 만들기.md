@@ -6,7 +6,6 @@ tags: 프로그래밍 CI/CD 자동화
 permalink: /posts/unity-blog-github-actions-pipeline
 description: "Unity 프로젝트를 GitHub에 커밋하는 것만으로 WebGL 빌드를 만들어 블로그에 자동 업로드 하는 CI/CD 파이프라인 구축 가이드. GitHub Actions와 Jekyll을 활용한 DevOps 실습."
 excerpt: "테크 PM 포지션 지원을 위해 Unity WebGL 빌드 자동화 파이프라인을 만들어보았습니다."
-author: "김창섭"
 ---
 
 테크 PM 포지션에 지원해보기 위해 간단하게나마 Devops 경험이 필요하다고 생각해서, 간단한 CI/CD 파이프라인을 만들어보았다.
