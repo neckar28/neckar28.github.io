@@ -6,6 +6,9 @@ author_profile: true
 toc: true
 sidebar:
   nav: "categories"
+description: "김창섭의 포트폴리오. Unity3D 기반 교육용 게임 Robospital, 육성 시뮬레이션 공주님을 부탁해!, VR 연구 논문 및 특허까지 다양한 프로젝트 경험."
+excerpt: "개발자 김창섭의 포트폴리오 페이지입니다. Python 교육용 게임부터 VR 연구까지 다양한 프로젝트를 소개합니다."
+author: "김창섭"
 ---
 
 

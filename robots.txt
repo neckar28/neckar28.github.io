@@ -1,0 +1,21 @@
+---
+layout: null
+---
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}/feed.xml
+
+# Disallow crawling of certain paths
+Disallow: /assets/
+Disallow: /*.css$
+Disallow: /*.js$
+Disallow: /search/
+
+# Allow crawling of main content
+Allow: /posts/
+Allow: /categories/
+Allow: /tags/
+Allow: /portfolio/

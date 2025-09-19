@@ -29,6 +29,15 @@ github_username:  neckar28
 locale: ko
 timezone: Asia/Seoul
 
+# SEO Settings
+lang: ko-KR
+social:
+  type: Person
+  name: "김창섭"
+  links:
+    - "https://github.com/neckar28"
+    - "https://www.linkedin.com/in/%EC%B0%BD%EC%84%AD-%EA%B9%80-275678200/"
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 minimal_mistakes_skin: "dirt"
@@ -38,7 +47,9 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
   - jekyll-last-modified-at
-#  - jekyll-feed
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 category_archive:
   type: jekyll-archives
@@ -84,6 +95,8 @@ exclude:
 include: 
   - "_pages"
   - "_posts"
+  - "robots.txt"
+  - "google68f62877305e2dda.html"
 
 defaults:
   - scope:

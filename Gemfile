@@ -23,6 +23,8 @@ gem "jekyll-remote-theme"
 gem "jekyll-archives"
 gem "jekyll-paginate"
 gem "jekyll-last-modified-at"
+gem "jekyll-sitemap"
+gem "jekyll-seo-tag"
 
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
