@@ -143,9 +143,9 @@ jobs:
       - name: Unity-Builder (WebGL)
         uses: game-ci/unity-builder@v4
         env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          {% raw %}UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}{% endraw %}
+          {% raw %}UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}{% endraw %}
+          {% raw %}UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}{% endraw %}
         with:
           targetPlatform: WebGL
 ```
@@ -235,9 +235,9 @@ jobs:
       - name: Unity-Builder (WebGL)
         uses: game-ci/unity-builder@v4
         env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          {% raw %}UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}{% endraw %}
+          {% raw %}UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}{% endraw %}
+          {% raw %}UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}{% endraw %}
         with:
           targetPlatform: WebGL
           
@@ -245,7 +245,7 @@ jobs:
       - name: Deploy to Blog (gh-pages)
         uses: peaceiris/actions-gh-pages@v4
         with:
-          personal_token: ${{ secrets.BLOG_REPO_PAT }}
+          {% raw %}personal_token: ${{ secrets.BLOG_REPO_PAT }}{% endraw %}
           # 배포할 레포지토리
           external_repository: neckar28/neckar28.github.io
           # 배포할 브랜치
@@ -315,7 +315,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           # 같은 레포 내부에서는 github_token으로 (설정 필요하지 않음)
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          {% raw %}github_token: ${{ secrets.GITHUB_TOKEN }}{% endraw %}
           publish_dir: ./_site
           publish_branch: gh-pages
           keep_files: true
