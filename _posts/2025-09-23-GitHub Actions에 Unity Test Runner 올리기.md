@@ -34,13 +34,13 @@ Edit mode는 게임 실행이나 시간 흐름이 불필요한, 단순한 속성
 
 ![image.png](\assets\images\GitHub Actions에 Unity Test Runner 올리기\image%201.png){: width="230"}{: .center}
 
-Edit mode 플랫폼 설정
+<p style="text-align:center;"><em>Edit mode 플랫폼 설정</em></p>
 
 ![image.png](\assets\images\GitHub Actions에 Unity Test Runner 올리기\image%202.png){: width="230"}{: .center}
 
-Play mode 플랫폼 설정
+<p style="text-align:center;"><em>Play mode 플랫폼 설정</em></p>
 
-## 결과
+### 결과
 
 ![image.png](\assets\images\GitHub Actions에 Unity Test Runner 올리기\image%203.png){: .center}
 
