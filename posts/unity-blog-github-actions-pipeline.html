@@ -39,7 +39,7 @@
 
 
 
-  <meta property="article:modified_time" content="2025-09-20T04:53:49+09:00">
+  <meta property="article:modified_time" content="2025-09-23T17:19:33+09:00">
 
 
 
@@ -303,7 +303,7 @@
     <meta itemprop="headline" content="Unity-Blog-GitHub Actions 파이프라인 만들기">
     <meta itemprop="description" content="테크 PM 포지션 지원을 위해 Unity WebGL 빌드 자동화 파이프라인을 만들어보았습니다.">
     <meta itemprop="datePublished" content="2025-09-18T00:00:00+09:00">
-    <meta itemprop="dateModified" content="2025-09-20T04:53:49+09:00">
+    <meta itemprop="dateModified" content="2025-09-23T17:19:33+09:00">
 
     <div class="page__inner-wrap">
       
@@ -500,9 +500,9 @@
       <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Unity-Builder (WebGL)</span>
         <span class="na">uses</span><span class="pi">:</span> <span class="s">game-ci/unity-builder@v4</span>
         <span class="na">env</span><span class="pi">:</span>
-          <span class="na">UNITY_LICENSE</span><span class="pi">:</span> <span class="s">$</span>
-          <span class="na">UNITY_EMAIL</span><span class="pi">:</span> <span class="s">$</span>
-          <span class="na">UNITY_PASSWORD</span><span class="pi">:</span> <span class="s">$</span>
+          <span class="na">UNITY_LICENSE</span><span class="pi">:</span> <span class="s">${{ secrets.UNITY_LICENSE }}</span>
+          <span class="na">UNITY_EMAIL</span><span class="pi">:</span> <span class="s">${{ secrets.UNITY_EMAIL }}</span>
+          <span class="na">UNITY_PASSWORD</span><span class="pi">:</span> <span class="s">${{ secrets.UNITY_PASSWORD }}</span>
         <span class="na">with</span><span class="pi">:</span>
           <span class="na">targetPlatform</span><span class="pi">:</span> <span class="s">WebGL</span>
 </code></pre></div></div>
@@ -604,9 +604,9 @@
       <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Unity-Builder (WebGL)</span>
         <span class="na">uses</span><span class="pi">:</span> <span class="s">game-ci/unity-builder@v4</span>
         <span class="na">env</span><span class="pi">:</span>
-          <span class="na">UNITY_LICENSE</span><span class="pi">:</span> <span class="s">$</span>
-          <span class="na">UNITY_EMAIL</span><span class="pi">:</span> <span class="s">$</span>
-          <span class="na">UNITY_PASSWORD</span><span class="pi">:</span> <span class="s">$</span>
+          <span class="na">UNITY_LICENSE</span><span class="pi">:</span> <span class="s">${{ secrets.UNITY_LICENSE }}</span>
+          <span class="na">UNITY_EMAIL</span><span class="pi">:</span> <span class="s">${{ secrets.UNITY_EMAIL }}</span>
+          <span class="na">UNITY_PASSWORD</span><span class="pi">:</span> <span class="s">${{ secrets.UNITY_PASSWORD }}</span>
         <span class="na">with</span><span class="pi">:</span>
           <span class="na">targetPlatform</span><span class="pi">:</span> <span class="s">WebGL</span>
           
@@ -614,7 +614,7 @@
       <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy to Blog (gh-pages)</span>
         <span class="na">uses</span><span class="pi">:</span> <span class="s">peaceiris/actions-gh-pages@v4</span>
         <span class="na">with</span><span class="pi">:</span>
-          <span class="na">personal_token</span><span class="pi">:</span> <span class="s">$</span>
+          <span class="na">personal_token</span><span class="pi">:</span> <span class="s">${{ secrets.BLOG_REPO_PAT }}</span>
           <span class="c1"># 배포할 레포지토리</span>
           <span class="na">external_repository</span><span class="pi">:</span> <span class="s">neckar28/neckar28.github.io</span>
           <span class="c1"># 배포할 브랜치</span>
@@ -685,7 +685,7 @@
         <span class="na">uses</span><span class="pi">:</span> <span class="s">peaceiris/actions-gh-pages@v4</span>
         <span class="na">with</span><span class="pi">:</span>
           <span class="c1"># 같은 레포 내부에서는 github_token으로 (설정 필요하지 않음)</span>
-          <span class="na">github_token</span><span class="pi">:</span> <span class="s">$</span>
+          <span class="na">github_token</span><span class="pi">:</span> <span class="s">${{ secrets.GITHUB_TOKEN }}</span>
           <span class="na">publish_dir</span><span class="pi">:</span> <span class="s">./_site</span>
           <span class="na">publish_branch</span><span class="pi">:</span> <span class="s">gh-pages</span>
           <span class="na">keep_files</span><span class="pi">:</span> <span class="kc">true</span>
@@ -740,13 +740,13 @@
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2025-09-20">September 20, 2025</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time class="dt-published" datetime="2025-09-23">September 23, 2025</time></p>
 
       </footer>
 
       
 
-      <nav class="pagination"><a class="pagination--pager" href="/posts/bug-report-statistics">&laquo; 이전</a>
+      <nav class="pagination"><a class="pagination--pager" href="/posts/bug-report-statistics">&laquo; 이전</a><a class="pagination--pager" href="/posts/unity-test-runner-on-github-acitons">다음 &raquo;</a>
     </div>
 
     
