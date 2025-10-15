@@ -93,8 +93,6 @@ exclude:
   - "*.bat"
 
 include: 
-  - "_pages"
-  - "_posts"
   - "robots.txt"
   - "google68f62877305e2dda.html"
 
@@ -149,10 +147,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/%EC%B0%BD%EC%84%AD-%EA%B9%80-275678200/"
-
-collections:
-  pages:
-    output: true
 
 search: true
 
