@@ -1,16 +1,4 @@
 var store = [{
-        "title": "카테고리",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "/categories/",
-        "teaser": null
-      },{
-        "title": "포트폴리오",
-        "excerpt":"게임 Robospital Unity3D C# Python 역할: 1인 개발(그래픽 제외) 기간: 2020.08 ~ 2023.09 [Steam 페이지] Unity3D 기반의 Python 프로그래밍 교육용 게임을 직접 설계하고 개발했습니다. Unity와 Python을 연동해 TextMeshPro 기반의 코드 에디터를 만들어, 초보자가 게임 안에서 코드를 실행하며 학습할 수 있는 환경을 제공했습니다. 이 과정에서 TextMeshPro, UGUI 개발에 능숙해졌습니다. 스토리를 포함한...","categories": [],
-        "tags": [],
-        "url": "/portfolio/",
-        "teaser": null
-      },{
         "title": "왜 파이썬이었나?",
         "excerpt":"Robospital은 프로그래밍 교육용 프로그램으로, 프로그래밍 언어로 Python을 채택했다. 왜 파이썬을 선택했을까? https://github.blog/news-insights/octoverse/octoverse-2024/ Robospital을 처음 기획하던 2020년 기준으로, Python은 가장 많이 사용되는 프로그래밍 언어는 아니었다. 하지만 몇 가지 이유로 Python을 채택 했다. Python을 활용해 본 경험이 있어서, 프로그래밍 문제를 만들거나 구현에 적합했다. 이 전에 대학원 연구실에 다닐 때 Python을 활용해 본...","categories": ["기획"],
         "tags": ["Python","Robospital"],
