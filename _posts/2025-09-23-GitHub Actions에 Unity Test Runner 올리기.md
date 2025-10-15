@@ -3,7 +3,7 @@ title: "GitHub Actions에 Unity Test Runner 올리기"
 date: 2025-09-23
 categories: "CI/CD"
 tags: 프로그래밍 CI/CD 자동화
-permalink: /posts/unity-test-runner-on-github-acitons
+permalink: /posts/unity-test-runner-on-github-actions
 description: "Unity 프로젝트에 GitHub Actions를 활용한 자동화된 테스트 환경을 구축하는 과정을 다룹니다. Unity Test Framework 설정부터 CI/CD 파이프라인에서의 테스트 자동화까지, 실제 구현 과정에서 마주친 문제들과 해결방법을 공유합니다."
 excerpt: "Unity 프로젝트의 CI/CD 파이프라인에 Test Runner를 통합하여 자동화된 테스트 환경을 구축했습니다. dev 브랜치에서는 테스트만, main 브랜치에서는 테스트부터 배포까지 이어지는 완전한 자동화 워크플로우를 만들었습니다."
 ---
