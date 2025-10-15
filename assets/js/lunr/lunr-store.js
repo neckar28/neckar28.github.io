@@ -62,6 +62,6 @@ var store = [{
         "title": "GitHub Actions에 Unity Test Runner 올리기",
         "excerpt":"지난 포스트의 연장선으로, CI 과정의 테스트 자동화를 학습하기 위해 GitHub Actions에 Unity test runner를 올려보았다. 브랜치 구분하기 Unity repository에서, 기존에는 main 브랜치에 push하면 바로 빌드와 배포가 진행되었다. 그러나 자동 test와, 빌드, 배포를 구분하기 위해서, 개발 브랜치와 배포 브랜치를 구분해야 했다. 따라서 dev 브랜치를 하나 추가하였다. Unity 테스트 만들기 Unity Package...","categories": ["CI/CD"],
         "tags": ["프로그래밍","CI/CD","자동화"],
-        "url": "/posts/unity-test-runner-on-github-acitons",
+        "url": "/posts/unity-test-runner-on-github-actions",
         "teaser": null
       }]
