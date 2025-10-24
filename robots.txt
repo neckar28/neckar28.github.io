@@ -5,8 +5,8 @@ User-agent: *
 Allow: /
 
 # Sitemaps
-Sitemap: {{ site.url }}/sitemap.xml
-Sitemap: {{ site.url }}/feed.xml
+Sitemap: https://neckar28.github.io/sitemap.xml
+Sitemap: https://neckar28.github.io/feed.xml
 
 # Disallow crawling of certain paths
 Disallow: /assets/
