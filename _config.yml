@@ -92,7 +92,8 @@ exclude:
   - vendor/ruby/
   - "*.bat"
 
-include: 
+include:
+  - "_pages"
   - "robots.txt"
   - "google68f62877305e2dda.html"
 

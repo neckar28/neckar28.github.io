@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Morning Briefing 개인정보처리방침
 permalink: /morning-briefing/privacy/
 ---

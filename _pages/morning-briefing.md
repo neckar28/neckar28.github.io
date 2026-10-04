@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: Morning Briefing
 permalink: /morning-briefing/
 ---
