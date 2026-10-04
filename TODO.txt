@@ -1,0 +1,5 @@
+SEO TODO
+- Add default OG image in _config.yml (e.g., logo: /assets/images/seo-default.png) for social previews.
+- Set explicit description in index.html and _pages/category-archive.md to control SERP snippets.
+- Add per-post header.image or image fields to ensure thumbnails on shares.
+- Improve alt text in _pages/portfolio.md and key posts to include meaningful keywords (project name, platform, role).

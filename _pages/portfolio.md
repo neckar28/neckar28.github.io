@@ -18,7 +18,7 @@ excerpt: "개발자 김창섭의 포트폴리오 페이지입니다. Python 교�
 ![Robospital.png](/assets/images/포트폴리오/Robospital.png){: width="400"}{: .center}
 
 - <img src="/assets/icons/Unity_2021_logo.svg.png" alt="Unity Logo" style="height:1em;"> Unity3D <img src="/assets/icons/Logo_C_sharp.svg.png" alt="C# Logo" style="height:1em; margin-left:0.5em;"> C# <img src="/assets/icons/Python_logo.svg.png" alt="Python Logo" style="height:1em; margin-left:0.5em;"> Python
-- 역할: 1인 개발(그래픽 제외)
+- 역할: 1인 개발(그래픽 외주)
 - 기간: 2020.08 ~ 2023.09
 - <i class="fa-brands fa-steam"></i> [[Steam 페이지]](https://store.steampowered.com/app/2576580/Robospital/){:target="_blank" rel="noopener"}
 
